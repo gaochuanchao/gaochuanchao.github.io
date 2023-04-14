@@ -32,7 +32,7 @@ My research interest includes:
 # 🎓 Education
 - Undergraduate, *2013.08 - 2017.06*, <a href="https://www.ntu.edu.sg/"><img class="png" src="/images/NTU.png" width="23pt"></a> School of Mechanical and Aerospace Engineering, Nanyang Technological University, Singapore
 - Master, *2020.01 - 2021.08*, <a href="https://www.ntu.edu.sg/"><img class="png" src="/images/NTU.png" width="23pt"></a> School of Computer Science and Engineering, Nanyang Technological University, Singapore
-- PhD, *2021.08 - *, <a href="https://www.ntu.edu.sg/"><img class="png" src="/images/NTU.png" width="23pt"></a> Interdisciplinary Graduate Programme, Nanyang Technological University, Singapore
+- PhD, *2021.08 -* , <a href="https://www.ntu.edu.sg/"><img class="png" src="/images/NTU.png" width="23pt"></a> Interdisciplinary Graduate Programme, Nanyang Technological University, Singapore
 
 <span class='anchor' id='-lwzl'></span>
 
@@ -42,12 +42,10 @@ My research interest includes:
 - `Chuanchao Gao`, Heejong Park, and Arvind Easwaran. 2021. An anomaly detection framework for digital twin driven cyber-physical systems. In Proceedings of the ACM/IEEE 12th International Conference on Cyber-Physical Systems (ICCPS '21). Association for Computing Machinery, New York, NY, USA, 44–54, doi: 10.1145/3450267.3450533
 
   [[HTML]](https://dl.acm.org/doi/abs/10.1145/3450267.3450533)  [[Download]](https://dl.acm.org/doi/abs/10.1145/3450267.3450533) 
-  </div>
-
+  
 - `Chuanchao Gao`, Aryaman Shaan, Arvind Easwaran, "Deadline-constrained Multi-resource Task Mapping and Allocation for Edge-Cloud Systems," GLOBECOM 2022 - 2022 IEEE Global Communications Conference, Rio de Janeiro, Brazil, 2022, pp. 5037-5043, doi: 10.1109/GLOBECOM48099.2022.10001137.  
   [[HTML]](https://ieeexplore.ieee.org/abstract/document/10001137)  [[Download]](..\papers\Deadline-constrained Multi-resource Task Mapping and Allocation for Edge-Cloud System.pdf) 
-  </div>
-
+  
 - `Chuanchao Gao`, Arvind Easwaran, "Work-in-Progress: Deadline-Constrained Multi-Resource Allocation in Edge-Cloud System," 2022 IEEE Real-Time Systems Symposium (RTSS), Houston, TX, USA, 2022, pp. 503-506, doi: 10.1109/RTSS55097.2022.00052.
 
   [[HTML]](https://ieeexplore.ieee.org/abstract/document/9984794)  [[Download]](..\papers\Work-in-Progress Deadline-Constrained Multi-Resource Allocation in Edge-Cloud System.pdf) 

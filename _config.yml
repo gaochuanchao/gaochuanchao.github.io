@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Gao Chuanchao"
-description              : "Resource Allocation and Scheduling Optimization"
+description              : "This is the academic homepage of Gao Chuanchao."
 repository               : "gaochuanchao/gaochuanchao.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -15,7 +15,7 @@ google_scholar_stats_use_cdn : false
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
 
 # SEO Related
-google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
+google_site_verification : QDQg_qatZb44QKJ8VHppWa2h4v0lBizMNpZtF_ihO3k # get google_site_verification from https://search.google.com/search-console/about
 bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
 baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
 
@@ -27,7 +27,7 @@ author:
   location         : "Singapore"
   employer         : #"Nanyang Technological University"
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=JN7s960AAAAJ&hl=en"
+  googlescholar    : "https://scholar.google.com/citations?user=JN7s960AAAAJ"
   email            : "gaoc0008@e.ntu.edu.sg"
   researchgate     : "https://www.researchgate.net/profile/Chuanchao-Gao"
   uri              : 
