@@ -50,7 +50,7 @@ My research interest includes:
 
 - `Chuanchao Gao`, Aryaman Shaan, Arvind Easwaran, "Deadline-constrained Multi-resource Task Mapping and Allocation for Edge-Cloud Systems," GLOBECOM 2022 - 2022 IEEE Global Communications Conference, Rio de Janeiro, Brazil, 2022, pp. 5037-5043, doi: 10.1109/GLOBECOM48099.2022.10001137.  
 
-  [[HTML]](https://ieeexplore.ieee.org/abstract/document/10001137)  [[Download]](..\papers\Deadline-constrained Multi-resource Task Mapping and Allocation for Edge-Cloud System.pdf) 
+  [[HTML]](https://ieeexplore.ieee.org/abstract/document/10001137)  [[Download]](..\papers\Deadline-constrained Multi-resource Task Mapping and Allocation for Edge-Cloud System.pdf) [[Experiments Data]](https://github.com/CPS-research-group/CPS-NTU-Public/tree/GLOBECOM2022)
 
 - `Chuanchao Gao`, Arvind Easwaran, "Work-in-Progress: Deadline-Constrained Multi-Resource Allocation in Edge-Cloud System," 2022 IEEE Real-Time Systems Symposium (RTSS), Houston, TX, USA, 2022, pp. 503-506, doi: 10.1109/RTSS55097.2022.00052.
   
