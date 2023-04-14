@@ -29,17 +29,10 @@ My research interest includes:
 <span class='anchor' id='-educations'></span>
 
 # 🎓 Education
-### Undergraduate
+- *2013.08 - 2017.06*,  `undergraduate` , <a href="https://www.ntu.edu.sg/"><img class="png" src="/images/NTU.png" width="20pt"></a> School of Mechanical and Aerospace Engineering, Nanyang Technological University, Singapore
 
-- *2013.08 - 2017.06*,  <a href="https://www.ntu.edu.sg/"><img class="png" src="/images/NTU.png" width="23pt"></a> School of Mechanical and Aerospace Engineering, Nanyang Technological University, Singapore
-
-### Master
-
-- *2020.01 - 2021.08*, <a href="https://www.ntu.edu.sg/"><img class="png" src="/images/NTU.png" width="23pt"></a> School of Computer Science and Engineering, Nanyang Technological University, Singapore
-
-### PhD
-
-- *2021.08 -*   , <a href="https://www.ntu.edu.sg/"><img class="png" src="/images/NTU.png" width="23pt"></a> Interdisciplinary Graduate Programme, Nanyang Technological University, Singapore
+- *2020.01 - 2021.08*, `master` , <a href="https://www.ntu.edu.sg/"><img class="png" src="/images/NTU.png" width="20pt"></a> School of Computer Science and Engineering, Nanyang Technological University, Singapore
+- *2021.08 -*   , `PhD` , <a href="https://www.ntu.edu.sg/"><img class="png" src="/images/NTU.png" width="20pt"></a> Interdisciplinary Graduate Programme, Nanyang Technological University, Singapore
 
 <span class='anchor' id='-publications'></span>
 
@@ -61,7 +54,7 @@ My research interest includes:
 
 - `Chuanchao Gao`, Heejong Park, and Arvind Easwaran. 2021. An anomaly detection framework for digital twin driven cyber-physical systems. In Proceedings of the ACM/IEEE 12th International Conference on Cyber-Physical Systems (ICCPS '21). Association for Computing Machinery, New York, NY, USA, 44–54, doi: 10.1145/3450267.3450533
   
-  [[HTML]](https://dl.acm.org/doi/abs/10.1145/3450267.3450533)  [[Download]](https://dl.acm.org/doi/abs/10.1145/3450267.3450533) 
+  [[HTML]](https://dl.acm.org/doi/abs/10.1145/3450267.3450533)  [[Download]](..\papers\An anomaly detection framework for digital twin driven cyber-physical systems.pdf) 
 
 <span class='anchor' id='-conferences'></span>
 
@@ -76,5 +69,5 @@ My research interest includes:
 <span class='anchor' id='-internships'></span>
 
 # 💻 Work Experience
-- *2017.06 - 2020.01*, United Microelectronics Corporation (Singapore Branch), Equipment Engineer
-- *2020.06 - 2021.06*, Nanyang Technological University, Singapore, Research Assistant
+- *2017.06 - 2020.01*, United Microelectronics Corporation (Singapore Branch), `Equipment Engineer`
+- *2020.06 - 2021.06*, Nanyang Technological University, Singapore, `Research Assistant`
