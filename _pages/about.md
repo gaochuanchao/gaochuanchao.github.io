@@ -29,9 +29,9 @@ My research interest includes:
 <span class='anchor' id='-educations'></span>
 
 # 🎓 Education
-- Undergraduate, *2013.08 - 2017.06*, <a href="https://www.ntu.edu.sg/"><img class="png" src="/images/NTU.png" width="23pt"></a> School of Mechanical and Aerospace Engineering, Nanyang Technological University, Singapore
-- Master, *2020.01 - 2021.08*, <a href="https://www.ntu.edu.sg/"><img class="png" src="/images/NTU.png" width="23pt"></a> School of Computer Science and Engineering, Nanyang Technological University, Singapore
-- PhD, *2021.08 -* , <a href="https://www.ntu.edu.sg/"><img class="png" src="/images/NTU.png" width="23pt"></a> Interdisciplinary Graduate Programme, Nanyang Technological University, Singapore
+- *2013.08 - 2017.06*, undergraduate,  <a href="https://www.ntu.edu.sg/"><img class="png" src="/images/NTU.png" width="23pt"></a> School of Mechanical and Aerospace Engineering, Nanyang Technological University, Singapore
+- *2020.01 - 2021.08*,        master       , <a href="https://www.ntu.edu.sg/"><img class="png" src="/images/NTU.png" width="23pt"></a> School of Computer Science and Engineering, Nanyang Technological University, Singapore
+- *2021.08 -*              ,          PhD           , <a href="https://www.ntu.edu.sg/"><img class="png" src="/images/NTU.png" width="23pt"></a> Interdisciplinary Graduate Programme, Nanyang Technological University, Singapore
 
 <span class='anchor' id='-publications'></span>
 
@@ -57,7 +57,7 @@ My research interest includes:
 - 2022.12, IEEE Global Communications Conference (GLOBECOM) 2022, Rio de Janeiro, Brazil, Oral
 - 2022.12, 43th IEEE Real-Time Systems Symposium (RTSS), Houston, USA, Poster
 
-<span class='anchor' id='-honors-and-awards'></span>
+<span class='anchor' id='-awards'></span>
 
 # 🏅Awards
 <span class='anchor' id='-internships'></span>
