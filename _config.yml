@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Gao Chuanchao"
-description              : "Resource Allocation/Scheduling Optimization"
+description              : "Resource Allocation and Scheduling Optimization"
 repository               : "gaochuanchao/gaochuanchao.github.io"
 google_scholar_stats_use_cdn : false
 
