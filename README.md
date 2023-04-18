@@ -15,9 +15,10 @@ AcadHomepage
 
 <p align="center">
     <br>
-    <img src="screenshot.png" width="100%"/>
+    <img src="./docs/screenshot.png" width="100%"/>
     <br>
 </p>
+
 
 Some examples:
 - [Demo Page](https://rayeren.github.io/acad-homepage.github.io/)

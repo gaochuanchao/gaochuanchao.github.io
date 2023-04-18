@@ -14,12 +14,12 @@ AcadHomepage
 
 <p align="center">一个现代、响应式的个人学术主页</p>
 
-
 <p align="center">
     <br>
-    <img src="docs/screenshot.png" width="100%"/>
+    <img src="screenshot.png" width="100%"/>
     <br>
 </p>
+
 
 一些例子：
 - [样例页面](https://rayeren.github.io/acad-homepage.github.io/)
