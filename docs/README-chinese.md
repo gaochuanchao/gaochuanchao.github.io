@@ -2,7 +2,15 @@
 <h1 align="center">
 AcadHomepage
 </h1>
-[![](https://img.shields.io/github/stars/gaochuanchao/gaochuanchao.github.io)](https://github.com/gaochuanchao/gaochuanchao.github.io) [![](https://img.shields.io/github/forks/gaochuanchao/gaochuanchao.github.io)](https://github.com/gaochuanchao/gaochuanchao.github.io) [![](https://img.shields.io/github/issues/gaochuanchao/gaochuanchao.github.io)](https://github.com/gaochuanchao/gaochuanchao.github.io) [![](https://img.shields.io/github/license/gaochuanchao/gaochuanchao.github.io)](https://github.com/gaochuanchao/gaochuanchao.github.io/blob/main/LICENSE)  | [English README](../README.md)  
+
+<div align="center">
+
+[![](https://img.shields.io/github/stars/gaochuanchao/gaochuanchao.github.io)](https://github.com/gaochuanchao/gaochuanchao.github.io)
+[![](https://img.shields.io/github/forks/gaochuanchao/gaochuanchao.github.io)](https://github.com/gaochuanchao/gaochuanchao.github.io)
+[![](https://img.shields.io/github/issues/gaochuanchao/gaochuanchao.github.io)](https://github.com/gaochuanchao/gaochuanchao.github.io)
+[![](https://img.shields.io/github/license/gaochuanchao/gaochuanchao.github.io)](https://github.com/gaochuanchao/gaochuanchao.github.io/blob/main/LICENSE)  | [English README](../README.md)
+
+</div>
 
 <p align="center">一个现代、响应式的个人学术主页</p>
 
