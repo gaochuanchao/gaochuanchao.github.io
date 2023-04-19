@@ -21,6 +21,7 @@ jobs:
         python3 main.py
         cd ./results
         git init
+        git config --local user.email "gaoc0008@e.ntu.edu.sg"
         git config --local user.name "${GITHUB_ACTOR}"
         export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
         git add *.json
