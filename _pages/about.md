@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a PhD student of the Interdisciplinary Graduate Programme at Nanyang Technological University, Singapore. My main major is computer science, and supervised by Arvind Easwaran. I obtained my bachelor's degree with first class honor from School of Mechanical and Aerospace Engineering at Nanyang Technological University. I have published several papers with
+I am currently a PhD student of the Interdisciplinary Graduate Programme at Nanyang Technological University, Singapore. My main major is computer science, and supervised by Arvind Easwaran. I am a research student of the [Cyber-Physical Systems Research Group @ NTU, Singapore](https://cps-research-group.github.io/). I have published several papers with
  <a href='https://scholar.google.com/citations?user=JN7s960AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>。
 
 My research interest includes:
