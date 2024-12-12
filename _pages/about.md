@@ -38,6 +38,10 @@ My research interest includes:
 
 # 📝 Publication
 
+### 2024
+
+- `Chuanchao Gao`, Niraj Kumar, Arvind Easwaran, "Energy-Efficient Real-Time Job Mapping and Resource Management in Mobile-Edge Computing", 2024 IEEE Real-Time Systems Symposium (RTSS), York, UK, 2024. [[HTML]]  [[Download]](..\papers\Energy-Efficient Real-Time Job Mapping and Resource Management in Mobile-Edge Computing.pdf) [[Experiments Data]](https://github.com/CPS-research-group/CPS-NTU-Public/tree/RTSS2024)
+
 ### 2022
 
 
