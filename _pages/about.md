@@ -22,9 +22,9 @@ I am currently a PhD student of the Interdisciplinary Graduate Programme at Nany
 
 My research interest includes:
 
-- resource allocation algorithm design
-- resource scheduling algorithm design
-- edge-cloud computing system resource management
+- real-time scheduling
+- edge computing system design
+- approximation algorithm
 
 <span class='anchor' id='-educations'></span>
 
@@ -41,6 +41,7 @@ My research interest includes:
 ### 2024
 
 - `Chuanchao Gao`, Niraj Kumar, Arvind Easwaran, "Energy-Efficient Real-Time Job Mapping and Resource Management in Mobile-Edge Computing", 2024 IEEE Real-Time Systems Symposium (RTSS), York, UK, 2024. [[HTML]]  [[Download]](..\papers\Energy-Efficient Real-Time Job Mapping and Resource Management in Mobile-Edge Computing.pdf) [[Experiments Data]](https://github.com/CPS-research-group/CPS-NTU-Public/tree/RTSS2024)
+- Niraj Kumar, `Chuanchao Gao`, Arvind Easwaran, "Optimal Fixed Priority Scheduling in Multi-Stage Multi-Resource Distributed Real-Time Systems", 2024 Design, Automation & Test in Europe Conference & Exhibition (DATE), Valencia, Spain, 2024, pp. 1-6, doi: 10.23919/DATE58400.2024.10546551. [[HTML]]([https://ieeexplore-ieee-org.remotexs.ntu.edu.sg/abstract/document/10546551)  [[Download]](..\papers\Optimal Fixed Priority Scheduling in Multi-Stage Multi-Resource Distributed Real-Time Systems.pdf) [[Experiments Data]](https://github.com/CPS-research-group/CPS-NTU-Public/tree/DATE2024) 
 
 ### 2022
 
@@ -64,6 +65,7 @@ My research interest includes:
 
 # 🏛️ Conference
 
+- 2024.12, 2024 IEEE Real-Time Systems Symposium (RTSS), York, UK, Oral
 - 2022.12, IEEE Global Communications Conference (GLOBECOM) 2022, Rio de Janeiro, Brazil, Oral
 - 2022.12, 43th IEEE Real-Time Systems Symposium (RTSS), Houston, USA, Poster
 
