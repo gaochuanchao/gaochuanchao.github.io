@@ -1,10 +1,16 @@
 name: Get Citation Data
 
-on: 
- page_build: 
- schedule:
-  - cron:  '0 0 * * *'
- workflow_dispatch:
+on:
+  # Trigger daily
+  schedule:
+    - cron: '0 0 * * *'
+  # Trigger manually
+  workflow_dispatch:
+  # Optional: Trigger after Pages site is deployed (if needed)
+  workflow_run:
+    workflows: ["Pages Build and Deployment"]
+    types:
+      - completed
 
 env:
   Email: ${{ vars.EMAIL }}
@@ -14,21 +20,29 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - name: Install Reqs
+
+    - name: Install Python and pip
       run: |
-        sudo apt-get install python3-setuptools
-    - name: Run
+        sudo apt-get update
+        sudo apt-get install -y python3-pip python3-setuptools
+
+    - name: Run Crawler Script
       run: |
+        set -e
         cd ./google_scholar_crawler
         pip3 install -r requirements.txt
         python3 main.py
-        cd ./results
+
+    - name: Push Citation Data to Pages Branch
+      run: |
+        cd ./google_scholar_crawler/results
+
+        # Clone pages branch (e.g., gh-pages) or use google-scholar-stats if separate
         git init
-        git config --local user.email "${Email}"
-        git config --local user.name "${GITHUB_ACTOR}"
-        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
+        git config user.name "${GITHUB_ACTOR}"
+        git config user.email "${Email}"
         git add *.json
-        git commit -m "Updated Citation Data"
-        git push "${remote_repo}" HEAD:google-scholar-stats --force
-      env: 
+        git commit -m "Update citation data"
+        git push "https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" HEAD:google-scholar-stats --force
+      env:
         GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
