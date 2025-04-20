@@ -1,15 +1,26 @@
 from scholarly import scholarly, ProxyGenerator
+import time
 import jsonpickle
 import json
 from datetime import datetime
 import os
 
+# Set up logging to capture potential issues
+print("[INFO] Setting up proxy...")
 pg = ProxyGenerator()
 pg.FreeProxies()
 scholarly.use_proxy(pg)
 
 print("[INFO] Starting Scholar fetch...")
-author: dict = scholarly.search_author_id(os.environ['GOOGLE_SCHOLAR_ID'])
+start = time.time()
+try:
+    author: dict = scholarly.search_author_id(os.environ['GOOGLE_SCHOLAR_ID'])
+except Exception as e:
+    print(f"[ERROR] Error during author search: {e}")
+    exit(1)
+print(f"[INFO] Author search completed in {time.time() - start} seconds")
+
+print("[INFO] Filling author data...")
 scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
 print("[INFO] Successfully fetched author info.")
 
