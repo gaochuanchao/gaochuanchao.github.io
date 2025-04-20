@@ -1,15 +1,9 @@
-from scholarly import scholarly, ProxyGenerator
+from scholarly import scholarly
 import time
 import jsonpickle
 import json
 from datetime import datetime
 import os
-
-# Set up logging to capture potential issues
-print("[INFO] Setting up proxy...")
-pg = ProxyGenerator()
-pg.FreeProxies()
-scholarly.use_proxy(pg)
 
 print("[INFO] Starting Scholar fetch...")
 start = time.time()
