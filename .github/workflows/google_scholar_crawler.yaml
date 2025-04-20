@@ -18,12 +18,10 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      Email: ${{ vars.EMAIL }}
+      GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
     steps:
-    - name: Debug print
-      run: echo "Scholar ID is set to ${GOOGLE_SCHOLAR_ID}"
-      env:
-        GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
-    
     - uses: actions/checkout@v3
 
     - name: Install Python and pip
