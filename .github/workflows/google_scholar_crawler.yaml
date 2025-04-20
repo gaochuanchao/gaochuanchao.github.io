@@ -1,19 +1,9 @@
 name: Get Citation Data
 
-on:
-  # Trigger daily
+on: 
   schedule:
-    - cron: '0 0 * * *'
-  # Trigger manually
+    - cron: '0 0 * * *'   # Daily at midnight UTC
   workflow_dispatch:
-  # Optional: Trigger after Pages site is deployed (if needed)
-  workflow_run:
-    workflows: ["Pages Build and Deployment"]
-    types:
-      - completed
-
-env:
-  Email: ${{ vars.EMAIL }}
 
 jobs:
   build:
@@ -21,31 +11,45 @@ jobs:
     env:
       Email: ${{ vars.EMAIL }}
       GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+
     steps:
     - uses: actions/checkout@v3
 
-    - name: Install Python and pip
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: Cache pip
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+
+    - name: Install dependencies
       run: |
-        sudo apt-get update
-        sudo apt-get install -y python3-pip python3-setuptools
+        pip install --upgrade pip
+        pip install -r google_scholar_crawler/requirements.txt
+
+    - name: Debug Environment
+      run: echo "Scholar ID is set to ${GOOGLE_SCHOLAR_ID}"
 
     - name: Run Crawler Script
       run: |
-        set -e
-        cd ./google_scholar_crawler
-        pip3 install -r requirements.txt
-        python3 main.py
-
-    - name: Push Citation Data to Pages Branch
+        echo "[INFO] Running crawler script..."
+        cd google_scholar_crawler
+        timeout 60s python3 main.py || echo "[ERROR] Script timed out"
+    
+    - name: Push Result Files
       run: |
-        cd ./google_scholar_crawler/results
-
-        # Clone pages branch (e.g., gh-pages) or use google-scholar-stats if separate
+        cd google_scholar_crawler/results
         git init
-        git config user.name "${GITHUB_ACTOR}"
-        git config user.email "${Email}"
+        git config --local user.email "${Email}"
+        git config --local user.name "${GITHUB_ACTOR}"
         git add *.json
-        git commit -m "Update citation data"
-        git push "https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" HEAD:google-scholar-stats --force
-      env:
-        GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+        git commit -m "Update Scholar Data [auto]"
+        git branch -M google-scholar-stats
+        git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+        git push origin google-scholar-stats --force
