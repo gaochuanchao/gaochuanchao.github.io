@@ -22,7 +22,8 @@ I am currently a PhD student of the Interdisciplinary Graduate Programme at Nany
 My research interest includes:
 
 - real-time scheduling
-- edge computing system design
+- mobile edge computing system
+- cyber-physical system
 - approximation algorithm
 
 <span class='anchor' id='-educations'></span>
@@ -36,6 +37,10 @@ My research interest includes:
 <span class='anchor' id='-publications'></span>
 
 # 📝 Publication
+
+### 2025
+
+- `Chuanchao Gao` and Arvind Easwaran. 2025. Local Ratio based Real-time Job Offloading and Resource Allocation in Mobile Edge Computing. In Proceedings of the 4th International Workshop on Real-time and IntelliGent Edge computing (RAGE '25). Association for Computing Machinery, New York, NY, USA, Article 6, 1–6. [[HTML]](https://doi.org/10.1145/3722567.3727843) [[Download]](..\papers\Local Ratio based Real-time Job Offloading and Resource Allocation in Mobile Edge Computing.pdf) 
 
 ### 2024
 
