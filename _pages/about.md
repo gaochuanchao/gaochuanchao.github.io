@@ -66,7 +66,7 @@ My research interest includes:
 ## 📝 Workshop
 
 ### 2025
-- `Chuanchao Gao` and Arvind Easwaran, ``VecSim, a Vehicular Edge Computing Simulator for Real-Time Applications'', Demo Session of IEEE International Conference on Embedded and Real-Time Computing Systems and Applications (RTCSA), 2025. [[HTML]](https://ieeexplore.ieee.org/document/11153192) [[Download]](../papers/VecSim, a Vehicular Edge Computing Simulator for Real-Time Applications.pdf) 
+- `Chuanchao Gao` and Arvind Easwaran, ``VecSim, a Vehicular Edge Computing Simulator for Real-Time Applications'', Demo Session of IEEE International Conference on Embedded and Real-Time Computing Systems and Applications (RTCSA), 2025. [[HTML]](https://ieeexplore.ieee.org/document/11153192) [[Download]](../papers/VecSim, a Vehicular Edge Computing Simulator for Real-Time Applications.pdf) [[Open Source Project: mecRT]](https://github.com/gaochuanchao/mecRT/tree/main/src)
 
 - `Chuanchao Gao` and Arvind Easwaran. 2025. Local Ratio based Real-time Job Offloading and Resource Allocation in Mobile Edge Computing. In Proceedings of the 4th International Workshop on Real-time and IntelliGent Edge computing (RAGE '25). Association for Computing Machinery, New York, NY, USA, Article 6, 1–6. [[HTML]](https://doi.org/10.1145/3722567.3727843) [[Download]](..\papers\Local Ratio based Real-time Job Offloading and Resource Allocation in Mobile Edge Computing.pdf) 
 
@@ -77,9 +77,21 @@ My research interest includes:
 
 <span class='anchor' id='-awards'></span>
 
+
+
+## 💻 Open Source Project
+
+<span class='anchor' id='-projects'></span>
+
+- [mecRT](https://github.com/gaochuanchao/mecRT/tree/main/src), an Mobile Edge Computing Simulator for Real-Time Applications
+
+<span class='anchor' id='-projects'></span>
+
+
+
 # 🏅Awards
 <span class='anchor' id='-internships'></span>
-- Best Demo Award: ``VecSim: A Vehicle Edge Computing Simulator for Real-Time Applications'', RTCSA 2025
+- Best Demo Award: ``VecSim: A Vehicle Edge Computing Simulator for Real-Time Applications'', RTCSA 2025 [[mecRT]](https://github.com/gaochuanchao/mecRT/tree/main/src) 
 - NTU Research Scholarship, Nanyang Technological University, 2021-2025
 - NTU Science and Engineering Undergraduate Scholarship, Nanyang Technological University, 2013-2017
 
