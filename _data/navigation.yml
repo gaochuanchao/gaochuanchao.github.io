@@ -9,11 +9,11 @@ main:
   - title: "Publications"
     url: "/#-publications"
 
-  - title: "Conferences"
-    url: "/#-conferences"
+  - title: "Open Source Projects"
+    url: "/#-projects"
 
   - title: "Awards"
     url: "/#-awards"
 
   - title: "Work Experience"
-    url: "/#-internships"
+    url: "/#-working"

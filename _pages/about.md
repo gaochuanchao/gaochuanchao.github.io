@@ -75,25 +75,27 @@ My research interest includes:
   
   [[HTML]](https://ieeexplore.ieee.org/abstract/document/9984794)  [[Download]](..\papers\Work-in-Progress Deadline-Constrained Multi-Resource Allocation in Edge-Cloud System.pdf) 
 
-<span class='anchor' id='-awards'></span>
 
 
+<span class='anchor' id='-projects'></span>
 
 ## 💻 Open Source Project
 
-<span class='anchor' id='-projects'></span>
-
 - [mecRT](https://github.com/gaochuanchao/mecRT/tree/main/src), an Mobile Edge Computing Simulator for Real-Time Applications
 
-<span class='anchor' id='-projects'></span>
 
 
+<span class='anchor' id='-awards'></span>
 
 # 🏅Awards
-<span class='anchor' id='-internships'></span>
+
 - Best Demo Award: ``VecSim: A Vehicle Edge Computing Simulator for Real-Time Applications'', RTCSA 2025 [[mecRT]](https://github.com/gaochuanchao/mecRT/tree/main/src) 
 - NTU Research Scholarship, Nanyang Technological University, 2021-2025
 - NTU Science and Engineering Undergraduate Scholarship, Nanyang Technological University, 2013-2017
+
+
+
+<span class='anchor' id='-working'></span>
 
 # 💻 Work Experience
 - *2017.06 - 2020.01*, United Microelectronics Corporation (Singapore Branch), `Equipment Engineer`
