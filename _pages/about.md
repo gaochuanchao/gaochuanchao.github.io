@@ -34,15 +34,25 @@ My research interest includes:
 - *2020.01 - 2021.08*, `master` , <a href="https://www.ntu.edu.sg/"><img class="png" src="/images/NTU.png" width="20pt"></a> School of Computer Science and Engineering, Nanyang Technological University, Singapore
 - *2021.08 -*   , `PhD` , <a href="https://www.ntu.edu.sg/"><img class="png" src="/images/NTU.png" width="20pt"></a> Interdisciplinary Graduate Programme, Nanyang Technological University, Singapore
 
+
+
+<span class='anchor' id='-projects'></span>
+
+## 💻 Open Source Project
+
+- [mecRT](https://github.com/gaochuanchao/mecRT/tree/main/src), an Mobile Edge Computing Simulator for Real-Time Applications
+
+
+
 <span class='anchor' id='-publications'></span>
 
 # 📝 Publication
 
-## 📝 Conference
-
 ### 2025
 - `Chuanchao Gao`, Arvind Easwaran, "Real-Time Service Subscription and Adaptive Offloading Control in Vehicular Edge Computing", IEEE Real-Time Systems Symposium (RTSS), 2025.
 - `Chuanchao Gao`, Arvind Easwaran, "Energy-Efficient Joint Offloading and Resource Allocation for Deadline-Constrained Tasks in Multi-Access Edge Computing", IEEE International Conference on Embedded and Real-Time Computing Systems and Applications (RTCSA), 2025.  [[HTML]](https://ieeexplore-ieee-org.remotexs.ntu.edu.sg/document/11153106) [[Download]](../papers/Energy-Efficient Joint Offloading and Resource Allocation for Deadline-Constrained Tasks in Multi-Access Edge Computing.pdf) 
+- `Chuanchao Gao` and Arvind Easwaran, ``VecSim, a Vehicular Edge Computing Simulator for Real-Time Applications'', Demo Session of IEEE International Conference on Embedded and Real-Time Computing Systems and Applications (RTCSA), 2025. [[HTML]](https://ieeexplore.ieee.org/document/11153192) [[Download]](../papers/VecSim, a Vehicular Edge Computing Simulator for Real-Time Applications.pdf) [[Open Source Project: mecRT]](https://github.com/gaochuanchao/mecRT/tree/main/src)
+- `Chuanchao Gao` and Arvind Easwaran. 2025. Local Ratio based Real-time Job Offloading and Resource Allocation in Mobile Edge Computing. In Proceedings of the 4th International Workshop on Real-time and IntelliGent Edge computing (RAGE '25). Association for Computing Machinery, New York, NY, USA, Article 6, 1–6. [[HTML]](https://doi.org/10.1145/3722567.3727843) [[Download]](..\papers\Local Ratio based Real-time Job Offloading and Resource Allocation in Mobile Edge Computing.pdf) 
 
 ### 2024
 
@@ -53,35 +63,15 @@ My research interest includes:
 
 - `Chuanchao Gao`, Aryaman Shaan, Arvind Easwaran, "Deadline-constrained Multi-resource Task Mapping and Allocation for Edge-Cloud Systems," GLOBECOM 2022 - 2022 IEEE Global Communications Conference, Rio de Janeiro, Brazil, 2022, pp. 5037-5043, doi: 10.1109/GLOBECOM48099.2022.10001137.  
 
-  [[HTML]](https://ieeexplore.ieee.org/abstract/document/10001137)  [[Download]](..\papers\Deadline-constrained Multi-resource Task Mapping and Allocation for Edge-Cloud System.pdf) [[Experiments Data]](https://github.com/CPS-research-group/CPS-NTU-Public/tree/GLOBECOM2022)
+  [[HTML]](https://ieeexplore.ieee.org/abstract/document/10001137)  [[Download]](..\papers\Deadline-constrained Multi-resource Task Mapping and Allocation for Edge-Cloud System.pdf) [[Experiments Data]](https://github.com/CPS-research-group/CPS-NTU-Public/tree/GLOBECOM2022) 
 
-
+- `Chuanchao Gao`, Arvind Easwaran, "Work-in-Progress: Deadline-Constrained Multi-Resource Allocation in Edge-Cloud System," 2022 IEEE Real-Time Systems Symposium (RTSS), Houston, TX, USA, 2022, pp. 503-506, doi: 10.1109/RTSS55097.2022.00052. [[HTML]](https://ieeexplore.ieee.org/abstract/document/9984794)  [[Download]](..\papers\Work-in-Progress Deadline-Constrained Multi-Resource Allocation in Edge-Cloud System.pdf) 
 
 ### 2021
 
 - `Chuanchao Gao`, Heejong Park, and Arvind Easwaran. 2021. An anomaly detection framework for digital twin driven cyber-physical systems. In Proceedings of the ACM/IEEE 12th International Conference on Cyber-Physical Systems (ICCPS '21). Association for Computing Machinery, New York, NY, USA, 44–54, doi: 10.1145/3450267.3450533
   
   [[HTML]](https://dl.acm.org/doi/abs/10.1145/3450267.3450533)  [[Download]](..\papers\An anomaly detection framework for digital twin driven cyber-physical systems.pdf) 
-
-## 📝 Workshop
-
-### 2025
-- `Chuanchao Gao` and Arvind Easwaran, ``VecSim, a Vehicular Edge Computing Simulator for Real-Time Applications'', Demo Session of IEEE International Conference on Embedded and Real-Time Computing Systems and Applications (RTCSA), 2025. [[HTML]](https://ieeexplore.ieee.org/document/11153192) [[Download]](../papers/VecSim, a Vehicular Edge Computing Simulator for Real-Time Applications.pdf) [[Open Source Project: mecRT]](https://github.com/gaochuanchao/mecRT/tree/main/src)
-
-- `Chuanchao Gao` and Arvind Easwaran. 2025. Local Ratio based Real-time Job Offloading and Resource Allocation in Mobile Edge Computing. In Proceedings of the 4th International Workshop on Real-time and IntelliGent Edge computing (RAGE '25). Association for Computing Machinery, New York, NY, USA, Article 6, 1–6. [[HTML]](https://doi.org/10.1145/3722567.3727843) [[Download]](..\papers\Local Ratio based Real-time Job Offloading and Resource Allocation in Mobile Edge Computing.pdf) 
-
-### 2022
-- `Chuanchao Gao`, Arvind Easwaran, "Work-in-Progress: Deadline-Constrained Multi-Resource Allocation in Edge-Cloud System," 2022 IEEE Real-Time Systems Symposium (RTSS), Houston, TX, USA, 2022, pp. 503-506, doi: 10.1109/RTSS55097.2022.00052.
-  
-  [[HTML]](https://ieeexplore.ieee.org/abstract/document/9984794)  [[Download]](..\papers\Work-in-Progress Deadline-Constrained Multi-Resource Allocation in Edge-Cloud System.pdf) 
-
-
-
-<span class='anchor' id='-projects'></span>
-
-## 💻 Open Source Project
-
-- [mecRT](https://github.com/gaochuanchao/mecRT/tree/main/src), an Mobile Edge Computing Simulator for Real-Time Applications
 
 
 
