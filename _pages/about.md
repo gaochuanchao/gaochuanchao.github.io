@@ -21,15 +21,7 @@ I am currently a PhD student of the Interdisciplinary Graduate Programme at Nany
 
 
 
-I am actively looking for cooperation in the following topics: (i) resource scheduling in mobile edge computing systems; (ii) collaborative perception in wireless networks; and (iii) Simulator-based experimental platform design.
-
-
-
-**Feel free to contact me if we share common research interests.**
-
-
-
-:page_facing_up: ​Download my [Curriculum Vitae](../papers/AcademicCV.pdf) .
+📎 Download my [Curriculum Vitae](../papers/AcademicCV.pdf) .
 
 
 
@@ -39,6 +31,16 @@ My research interest includes:
 - mobile edge computing system
 - cyber-physical system
 - approximation algorithm
+
+
+
+I am actively looking for cooperation in the following topics: (i) mobile edge-cloud computing systems; (ii) collaborative perception in wireless networks; and (iii) Simulator-based experimental platform design.
+
+
+
+**Feel free to contact me if we share common research interests!**
+
+
 
 <span class='anchor' id='-educations'></span>
 
