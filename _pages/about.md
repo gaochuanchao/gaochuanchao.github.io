@@ -19,6 +19,20 @@ redirect_from:
 
 I am currently a PhD student of the Interdisciplinary Graduate Programme at Nanyang Technological University (NTU), Singapore. My main major is computer science, and supervised by [Arvind Easwaran](https://personal.ntu.edu.sg/arvinde/). I am a research student of the [Cyber-Physical Systems Research Group](https://cps-research-group.github.io/)  @ NTU, Singapore.
 
+
+
+I am actively looking for cooperation in the following topics: (i) resource scheduling in mobile edge computing systems; (ii) collaborative perception in wireless networks; and (iii) Simulator-based experimental platform design.
+
+
+
+**Feel free to contact me if we share common research interests.**
+
+
+
+:page_facing_up: ​Download my [Curriculum Vitae](../papers/AcademicCV.pdf) .
+
+
+
 My research interest includes:
 
 - real-time scheduling
