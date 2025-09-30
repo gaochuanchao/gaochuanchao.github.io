@@ -75,6 +75,14 @@ My research interest includes:
 
 
 
+<span class='anchor' id='-patents'></span>
+
+# 🏅Patents
+
+- Heejong Park, `Gao Chuanchao`, Arvind Easwaran and Cheng Chia Loon, "Material Handling Method Based On Digital Twin", Taiwan Patent No. I806148 B. Patent application filed through NTU and Delta Research Center, Singapore.
+
+
+
 <span class='anchor' id='-awards'></span>
 
 # 🏅Awards
