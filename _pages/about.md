@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a PhD student of the Interdisciplinary Graduate Programme at Nanyang Technological University (NTU), Singapore. My main major is computer science, and supervised by [Arvind Easwaran](https://personal.ntu.edu.sg/arvinde/). I am a research student of the [Cyber-Physical Systems Research Group](https://cps-research-group.github.io/)  @ NTU, Singapore.
+I am currently a PhD student of the College of Computing and Data Science at Nanyang Technological University (NTU), Singapore. My supervisor is [Arvind Easwaran](https://personal.ntu.edu.sg/arvinde/). I am a research student of the [Cyber-Physical Systems Research Group](https://cps-research-group.github.io/)  @ NTU, Singapore.
 
 
 
