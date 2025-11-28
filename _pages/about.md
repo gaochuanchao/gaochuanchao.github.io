@@ -17,7 +17,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a PhD student of the College of Computing and Data Science at Nanyang Technological University (NTU), Singapore. My supervisor is [Arvind Easwaran](https://personal.ntu.edu.sg/arvinde/). I am a research student of the [Cyber-Physical Systems Research Group](https://cps-research-group.github.io/)  @ NTU, Singapore.
+I am currently a PhD student of the College of Computing and Data Science at Nanyang Technological University (NTU), Singapore. My supervisor is [Prof. Arvind Easwaran](https://personal.ntu.edu.sg/arvinde/). I am a research student of the [Cyber-Physical Systems Research Group](https://cps-research-group.github.io/)  @ NTU, Singapore.
+
+
+
+**I am actively seeking a postdoctoral position, available from Feb 2026. I am interested in topics related to `heterogeneous resource scheduling` or `network integrated systems` .**
 
 
 
@@ -28,17 +32,10 @@ I am currently a PhD student of the College of Computing and Data Science at Nan
 My research interest includes:
 
 - real-time scheduling
-- mobile edge computing system
+- heterogeneous resource scheduling
+- network integrated systems
 - cyber-physical system
 - approximation algorithm
-
-
-
-I am actively looking for cooperation in the following topics: (i) mobile edge-cloud computing systems; (ii) collaborative perception in wireless networks; and (iii) Simulator-based experimental platform design.
-
-
-
-**Feel free to contact me if we share common research interests!**
 
 
 
