@@ -21,7 +21,7 @@ I am currently a PhD student of the College of Computing and Data Science at Nan
 
 
 
-**I am actively seeking a postdoctoral position, available from Feb 2026. I am interested in topics related to `heterogeneous resource scheduling` or `network integrated systems` .**
+**I am actively seeking a postdoctoral position, available from Feb 2026. I am interested in topics related to `heterogeneous resource scheduling` and `network integrated systems`.**
 
 
 
