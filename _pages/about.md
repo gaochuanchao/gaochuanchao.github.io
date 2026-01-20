@@ -17,12 +17,12 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Ph.D. student in the **College of Computing and Data Science** at **Nanyang Technological University (NTU), Singapore**, supervised by [Prof. Arvind Easwaran](https://personal.ntu.edu.sg/arvinde/). I am a member of the [Cyber-Physical Systems Research Group](https://cps-research-group.github.io/) at NTU.
+I am a Ph.D. student in the College of Computing and Data Science at Nanyang Technological University (NTU), Singapore, supervised by [Prof. Arvind Easwaran](https://personal.ntu.edu.sg/arvinde/). I am a member of the [Cyber-Physical Systems Research Group](https://cps-research-group.github.io/) at NTU.
 
-My research focuses on **algorithm design and analysis for resource allocation and scheduling problems**, with an emphasis on **combinatorial optimization and approximation algorithms** motivated by real-time and distributed systems.
+My research focuses on *algorithmic foundations for heterogeneous resource allocation and scheduling*, with an emphasis on combinatorial optimization and approximation algorithms motivated by real-time and distributed systems.
 
 **I am actively seeking postdoctoral positions starting in February 2026.**
- I am particularly interested in research directions related to **heterogeneous resource scheduling** and **network-integrated computing systems**, with a focus on developing **provable, mathematically grounded algorithms** that bridge theory and practice.
+ I am particularly interested in research directions related to *heterogeneous resource scheduling* and *network-integrated computing systems*, with a focus on developing provable, mathematically grounded algorithms that **bridge theory and practice**.
 
 
 
@@ -43,7 +43,7 @@ My research focuses on **algorithm design and analysis for resource allocation a
 <span class='anchor' id='-educations'></span>
 
 # 🎓 Education
-- **Aug 2021 – Jan 2026 (expected)**
+- **Aug 2021 – Jan 2026**
    **Ph.D. in Computer Science and Engineering**,
    Interdisciplinary Graduate Programme, <a href="https://www.ntu.edu.sg/"><img class="png" src="/images/NTU.png" width="20pt"></a> Nanyang Technological University, Singapore
 - **Jan 2020 – Jul 2021**
