@@ -59,7 +59,7 @@ My research focuses on *algorithmic foundations for heterogeneous resource alloc
 
 ## 💻 Open Source Project
 
-- **[mecRT](https://github.com/gaochuanchao/mecRT/tree/main/src)**
+- **[mecRT](https://github.com/gaochuanchao/mecRT)**
   A simulation framework for **real-time mobile edge computing**, supporting full task lifecycle management, including task registration, resource allocation and scheduling, dynamic offloading control.
 
 
