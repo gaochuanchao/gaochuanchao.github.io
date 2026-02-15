@@ -43,7 +43,7 @@ My research focuses on *algorithmic foundations for heterogeneous resource alloc
 <span class='anchor' id='-educations'></span>
 
 # 🎓 Education
-- **Aug 2021 – Jan 2026**
+- **Aug 2021 – Feb 2026**
    **Ph.D. in Computer Science and Engineering**,
    Interdisciplinary Graduate Programme, <a href="https://www.ntu.edu.sg/"><img class="png" src="/images/NTU.png" width="20pt"></a> Nanyang Technological University, Singapore
 - **Jan 2020 – Jul 2021**
