@@ -60,7 +60,7 @@ My research focuses on *algorithmic foundations for heterogeneous resource alloc
 ## 💻 Open Source Project
 
 - **[mecRT](https://github.com/gaochuanchao/mecRT)**
-  A simulation framework for **real-time mobile edge computing**, supporting full task lifecycle management, including task registration, resource allocation and scheduling, dynamic offloading control.
+  A simulation framework for **real-time mobile edge computing**, supporting (i) *full task lifecycle management*, including task registration, resource allocation and scheduling, and dynamic offloading control; (ii) *fault detection and recovery*, including faults happening in the backhaul network link, edge server, and global scheduler.
 
 
 
@@ -68,7 +68,14 @@ My research focuses on *algorithmic foundations for heterogeneous resource alloc
 
 # 📝 Publication
 
+### 2026
+
+- `Chuanchao Gao`, Yiyang Gao, Michael Yuhas, Arvind Easwaran. 
+  *Fault-Tolerant Offloading Framework for Real-Time Applications in Mobile Edge Computing*. 
+  **IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS)**, 2026.
+
 ### 2025
+
 - `Chuanchao Gao`, Arvind Easwaran.
   *Real-Time Service Subscription and Adaptive Offloading Control in Vehicular Edge Computing.*
   **IEEE Real-Time Systems Symposium (RTSS)**, 2025. [[HTML]](https://doi.org/10.1109/RTSS66672.2025.00023) [[Download]](../papers/Real-Time Service Subscription and Adaptive Offloading Control in Vehicular Edge Computing.pdf) [[Open Source Project: mecRT]](https://github.com/gaochuanchao/mecRT/tree/main/src) 
