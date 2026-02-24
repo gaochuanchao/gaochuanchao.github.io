@@ -28,6 +28,8 @@ My research focuses on *algorithmic foundations for heterogeneous resource alloc
 
 📎 Download my [Curriculum Vitae](../papers/AcademicCV.pdf) .
 
+📎 Download my [Research Statement](../papers/ResearchStatement.pdf) .
+
 
 
 #### 🔬 Research Interests
