@@ -21,8 +21,8 @@ I am a Ph.D. student in the College of Computing and Data Science at Nanyang Tec
 
 My research focuses on *algorithmic foundations for heterogeneous resource allocation and scheduling*, with an emphasis on combinatorial optimization and approximation algorithms motivated by real-time and distributed systems.
 
-**I am actively seeking postdoctoral positions starting in February 2026.**
- I am particularly interested in research directions related to *heterogeneous resource scheduling* and *network-integrated computing systems*, with a focus on developing provable, mathematically grounded algorithms that **bridge theory and practice**.
+
+I am particularly interested in research directions related to *heterogeneous resource scheduling* and *network-integrated computing systems*, with a focus on developing provable, mathematically grounded algorithms that **bridge theory and practice**.
 
 
 
