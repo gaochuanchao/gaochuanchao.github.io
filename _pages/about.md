@@ -74,13 +74,13 @@ I am particularly interested in research directions related to *heterogeneous re
 
 - `Chuanchao Gao`, Yiyang Gao, Michael Yuhas, Arvind Easwaran. 
   *Fault-Tolerant Offloading Framework for Real-Time Applications in Mobile Edge Computing*. 
-  **IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS)**, 2026.
+  **IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS)**, 2026. [HTML] [[Download]](../papers/Fault-Tolerant Offloading Framework for Real-Time Applications in Mobile Edge Computing.pdf) [[Open Source Project: mecRT]](https://github.com/gaochuanchao/mecRT) 
 
 ### 2025
 
 - `Chuanchao Gao`, Arvind Easwaran.
   *Real-Time Service Subscription and Adaptive Offloading Control in Vehicular Edge Computing.*
-  **IEEE Real-Time Systems Symposium (RTSS)**, 2025. [[HTML]](https://doi.org/10.1109/RTSS66672.2025.00023) [[Download]](../papers/Real-Time Service Subscription and Adaptive Offloading Control in Vehicular Edge Computing.pdf) [[Open Source Project: mecRT]](https://github.com/gaochuanchao/mecRT/tree/main/src) 
+  **IEEE Real-Time Systems Symposium (RTSS)**, 2025. [[HTML]](https://doi.org/10.1109/RTSS66672.2025.00023) [[Download]](../papers/Real-Time Service Subscription and Adaptive Offloading Control in Vehicular Edge Computing.pdf) [[Open Source Project: mecRT]](https://github.com/gaochuanchao/mecRT) 
 - `Chuanchao Gao`, Arvind Easwaran. 
   *Energy-Efficient Joint Offloading and Resource Allocation for Deadline-Constrained Tasks in Multi-Access Edge Computing.*
   IEEE International Conference on Embedded and Real-Time Computing Systems and Applications (RTCSA), 2025.  [[HTML]](https://doi.org/10.1109/RTCSA66114.2025.00016) [[Download]](../papers/Energy-Efficient Joint Offloading and Resource Allocation for Deadline-Constrained Tasks in Multi-Access Edge Computing.pdf) 
