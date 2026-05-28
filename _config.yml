@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Gao Chuanchao"
-  avatar           : "images/android-chrome-512x512.png"
+  avatar           : "/images/Photo_Chuanchao_Gao.png"
   bio              : "Nanyang Technological University"
   location         : "Singapore"
   employer         : #"Nanyang Technological University"
