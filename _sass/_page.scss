@@ -8,8 +8,13 @@
   margin-top: 1em;
   padding-left: 1em;
   padding-right: 1em;
+  min-height: calc(100vh - 8rem);
   animation: intro 0.3s both;
   animation-delay: 0.35s;
+
+  @include breakpoint($large) {
+    min-height: 720px;
+  }
 
   @include breakpoint($x-large) {
     max-width: $x-large;
