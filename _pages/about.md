@@ -3,36 +3,26 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
+
+# Gao Chuanchao
 
 I am a Ph.D. student in the College of Computing and Data Science at Nanyang Technological University (NTU), Singapore, supervised by [Prof. Arvind Easwaran](https://personal.ntu.edu.sg/arvinde/). I am a member of the [Cyber-Physical Systems Research Group](https://cps-research-group.github.io/) at NTU.
 
 My research focuses on *algorithmic foundations for heterogeneous resource allocation and scheduling*, with an emphasis on combinatorial optimization and approximation algorithms motivated by real-time and distributed systems.
 
+I am particularly interested in *heterogeneous resource scheduling* and *network-integrated computing systems*, with a focus on developing provable, mathematically grounded algorithms that **bridge theory and practice**.
 
-I am particularly interested in research directions related to *heterogeneous resource scheduling* and *network-integrated computing systems*, with a focus on developing provable, mathematically grounded algorithms that **bridge theory and practice**.
+📎 Download my [Curriculum Vitae](/papers/AcademicCV.pdf).
 
+📎 Download my [Research Statement](/papers/ResearchStatement.pdf).
 
-
-📎 Download my [Curriculum Vitae](../papers/AcademicCV.pdf) .
-
-📎 Download my [Research Statement](../papers/ResearchStatement.pdf) .
-
-
-
-#### 🔬 Research Interests
+## Research Interests
 
 - Approximation algorithms
 - Combinatorial optimization
@@ -40,108 +30,32 @@ I am particularly interested in research directions related to *heterogeneous re
 - Heterogeneous resource allocation
 - Network-integrated and cyber-physical systems
 
+## Selected Publications
 
+- `Chuanchao Gao`, Yiyang Gao, Michael Yuhas, Arvind Easwaran. *Fault-Tolerant Offloading Framework for Real-Time Applications in Mobile Edge Computing*. **IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS)**, 2026. [[Download]](</papers/Fault-Tolerant Offloading Framework for Real-Time Applications in Mobile Edge Computing.pdf>) [[Open Source Project: mecRT]](https://github.com/gaochuanchao/mecRT)
+- `Chuanchao Gao`, Arvind Easwaran. *Real-Time Service Subscription and Adaptive Offloading Control in Vehicular Edge Computing*. **IEEE Real-Time Systems Symposium (RTSS)**, 2025. [[HTML]](https://doi.org/10.1109/RTSS66672.2025.00023) [[Download]](</papers/Real-Time Service Subscription and Adaptive Offloading Control in Vehicular Edge Computing.pdf>) [[Open Source Project: mecRT]](https://github.com/gaochuanchao/mecRT)
+- `Chuanchao Gao`, Niraj Kumar, Arvind Easwaran. *Energy-Efficient Real-Time Job Mapping and Resource Management in Mobile-Edge Computing*. **IEEE Real-Time Systems Symposium (RTSS)**, 2024. [[HTML]](https://doi.org/10.1109/RTSS62706.2024.00012) [[Download]](</papers/Energy-Efficient Real-Time Job Mapping and Resource Management in Mobile-Edge Computing.pdf>) [[Experiments Data]](https://github.com/CPS-research-group/CPS-NTU-Public/tree/RTSS2024)
 
-<span class='anchor' id='-educations'></span>
+See the full [publication list](/publications/).
 
-# 🎓 Education
-- **Aug 2021 – Feb 2026**
-   **Ph.D. in Computer Science and Engineering**,
-   Interdisciplinary Graduate Programme, <a href="https://www.ntu.edu.sg/"><img class="png" src="/images/NTU.png" width="20pt"></a> Nanyang Technological University, Singapore
-- **Jan 2020 – Jul 2021**
-   **Graduate Studies (M.Eng. coursework and research)**,
-   School of Computer Science and Engineering, <a href="https://www.ntu.edu.sg/"><img class="png" src="/images/NTU.png" width="20pt"></a> Nanyang Technological University, Singapore
-- **Aug 2013 – Jul 2017**
-   **B.Eng. in Mechanical and Aerospace Engineering (First Class Honours)**,
-   School of Mechanical and Aerospace Engineering, <a href="https://www.ntu.edu.sg/"><img class="png" src="/images/NTU.png" width="20pt"></a> Nanyang Technological University, Singapore
+## Education
 
+- **Aug 2021 - Feb 2026**<br>
+  **Ph.D. in Computer Science and Engineering**, Interdisciplinary Graduate Programme, <a href="https://www.ntu.edu.sg/"><img class="png" src="/images/NTU.png" width="20pt"></a> Nanyang Technological University, Singapore
+- **Jan 2020 - Jul 2021**<br>
+  **Graduate Studies (M.Eng. coursework and research)**, School of Computer Science and Engineering, <a href="https://www.ntu.edu.sg/"><img class="png" src="/images/NTU.png" width="20pt"></a> Nanyang Technological University, Singapore
+- **Aug 2013 - Jul 2017**<br>
+  **B.Eng. in Mechanical and Aerospace Engineering (First Class Honours)**, School of Mechanical and Aerospace Engineering, <a href="https://www.ntu.edu.sg/"><img class="png" src="/images/NTU.png" width="20pt"></a> Nanyang Technological University, Singapore
 
+## Awards
 
-<span class='anchor' id='-projects'></span>
+- **Best Demo Award**, RTCSA 2025 - *VecSim: A Vehicular Edge Computing Simulator for Real-Time Applications* [[mecRT]](https://github.com/gaochuanchao/mecRT/tree/main/src)
+- **NTU Research Scholarship**, 2021-2025
+- **NTU Science and Engineering Undergraduate Scholarship**, 2013-2017
 
-## 💻 Open Source Project
+## Work Experience
 
-- **[mecRT](https://github.com/gaochuanchao/mecRT)**
-  A simulation framework for **real-time mobile edge computing**, supporting (i) *full task lifecycle management*, including task registration, resource allocation and scheduling, and dynamic offloading control; (ii) *fault detection and recovery*, including faults happening in the backhaul network link, edge server, and global scheduler.
-
-
-
-<span class='anchor' id='-publications'></span>
-
-# 📝 Publication
-
-### 2026
-
-- `Chuanchao Gao`, Yiyang Gao, Michael Yuhas, Arvind Easwaran. 
-  *Fault-Tolerant Offloading Framework for Real-Time Applications in Mobile Edge Computing*. 
-  **IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS)**, 2026. [HTML] [[Download]](../papers/Fault-Tolerant Offloading Framework for Real-Time Applications in Mobile Edge Computing.pdf) [[Open Source Project: mecRT]](https://github.com/gaochuanchao/mecRT) 
-
-### 2025
-
-- `Chuanchao Gao`, Arvind Easwaran.
-  *Real-Time Service Subscription and Adaptive Offloading Control in Vehicular Edge Computing.*
-  **IEEE Real-Time Systems Symposium (RTSS)**, 2025. [[HTML]](https://doi.org/10.1109/RTSS66672.2025.00023) [[Download]](../papers/Real-Time Service Subscription and Adaptive Offloading Control in Vehicular Edge Computing.pdf) [[Open Source Project: mecRT]](https://github.com/gaochuanchao/mecRT) 
-- `Chuanchao Gao`, Arvind Easwaran. 
-  *Energy-Efficient Joint Offloading and Resource Allocation for Deadline-Constrained Tasks in Multi-Access Edge Computing.*
-  IEEE International Conference on Embedded and Real-Time Computing Systems and Applications (RTCSA), 2025.  [[HTML]](https://doi.org/10.1109/RTCSA66114.2025.00016) [[Download]](../papers/Energy-Efficient Joint Offloading and Resource Allocation for Deadline-Constrained Tasks in Multi-Access Edge Computing.pdf) 
-- `Chuanchao Gao` and Arvind Easwaran. 
-  *VecSim, a Vehicular Edge Computing Simulator for Real-Time Applications.*
-  Demo Session of IEEE International Conference on Embedded and Real-Time Computing Systems and Applications (RTCSA), 2025. [[HTML]](https://doi.org/10.1109/RTCSA66114.2025.00033) [[Download]](../papers/VecSim, a Vehicular Edge Computing Simulator for Real-Time Applications.pdf) [[Open Source Project: mecRT]](https://github.com/gaochuanchao/mecRT/tree/main/src)
-- `Chuanchao Gao` and Arvind Easwaran. 
-  *Local Ratio based Real-time Job Offloading and Resource Allocation in Mobile Edge Computing.* 
-  International Workshop on Real-time and IntelliGent Edge computing (RAGE), 2025. [[HTML]](https://doi.org/10.1145/3722567.3727843) [[Download]](..\papers\Local Ratio based Real-time Job Offloading and Resource Allocation in Mobile Edge Computing.pdf) 
-
-### 2024
-
-- `Chuanchao Gao`, Niraj Kumar, Arvind Easwaran.
-  *Energy-Efficient Real-Time Job Mapping and Resource Management in Mobile-Edge Computing.*
-  **IEEE Real-Time Systems Symposium (RTSS)**, 2024. [[HTML]](https://doi.org/10.1109/RTSS62706.2024.00012)  [[Download]](../papers/Energy-Efficient Real-Time Job Mapping and Resource Management in Mobile-Edge Computing.pdf) [[Experiments Data]](https://github.com/CPS-research-group/CPS-NTU-Public/tree/RTSS2024)
-- Niraj Kumar, `Chuanchao Gao`, Arvind Easwaran.
-  *Optimal Fixed Priority Scheduling in Multi-Stage Multi-Resource Distributed Real-Time Systems.*
-  Design, Automation & Test in Europe Conference & Exhibition (DATE), 2024. [[HTML]](https://doi.org/10.23919/DATE58400.2024.10546551)  [[Download]](..\papers\Optimal Fixed Priority Scheduling in Multi-Stage Multi-Resource Distributed Real-Time Systems.pdf) [[Experiments Data]](https://github.com/CPS-research-group/CPS-NTU-Public/tree/DATE2024) 
-
-### 2022
-
-- `Chuanchao Gao`, Aryaman Shaan, Arvind Easwaran.
-  *Deadline-constrained Multi-resource Task Mapping and Allocation for Edge-Cloud Systems.*
-  IEEE Global Communications Conference, 2022. [[HTML]](https://doi.org/10.1109/GLOBECOM48099.2022.10001137)  [[Download]](..\papers\Deadline-constrained Multi-resource Task Mapping and Allocation for Edge-Cloud System.pdf) [[Experiments Data]](https://github.com/CPS-research-group/CPS-NTU-Public/tree/GLOBECOM2022) 
-
-- `Chuanchao Gao`, Arvind Easwaran.
-  *Work-in-Progress: Deadline-Constrained Multi-Resource Allocation in Edge-Cloud System.*
-  **IEEE Real-Time Systems Symposium (RTSS)**, 2022. [[HTML]](https://doi.org/10.1109/RTSS55097.2022.00052)  [[Download]](..\papers\Work-in-Progress Deadline-Constrained Multi-Resource Allocation in Edge-Cloud System.pdf) 
-
-### 2021
-
-- `Chuanchao Gao`, Heejong Park, and Arvind Easwaran. 
-  *An anomaly detection framework for digital twin driven cyber-physical systems.*
-  International Conference on Cyber-Physical Systems (ICCPS), 2021. [[HTML]](https://doi.org/10.1145/3450267.3450533)  [[Download]](..\papers\An anomaly detection framework for digital twin driven cyber-physical systems.pdf) 
-
-
-
-<span class='anchor' id='-patents'></span>
-
-# 🏅Patents
-
-- Heejong Park, **Chuanchao Gao**, Arvind Easwaran, Cheng Chia Loon.
-   *Material Handling Method Based on Digital Twin.*
-   Taiwan Patent No. I806148 B.
-
-
-
-<span class='anchor' id='-awards'></span>
-
-# 🏅Awards
-
-- **Best Demo Award**, RTCSA 2025 — *VecSim: A Vehicular Edge Computing Simulator for Real-Time Applications* [[mecRT]](https://github.com/gaochuanchao/mecRT/tree/main/src) 
-- **NTU Research Scholarship**, 2021–2025
-- **NTU Science and Engineering Undergraduate Scholarship**, 2013–2017
-
-
-
-<span class='anchor' id='-working'></span>
-
-# 💻 Work Experience
-- **Equipment Engineer**, United Microelectronics Corporation (Singapore)
-   *Jun 2017 – Jan 2020*
-- **Research Assistant**, Nanyang Technological University, Singapore
-   *Jun 2020 – Jun 2021*
+- **Equipment Engineer**, United Microelectronics Corporation (Singapore)<br>
+  *Jun 2017 - Jan 2020*
+- **Research Assistant**, Nanyang Technological University, Singapore<br>
+  *Jun 2020 - Jun 2021*
