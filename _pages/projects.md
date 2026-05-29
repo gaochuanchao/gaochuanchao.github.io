@@ -7,9 +7,8 @@ author_profile: true
 
 # Projects
 
-This page collects selected research projects, systems, simulators, and experimental artifacts developed as part of my Ph.D. research and ongoing research agenda. These projects connect algorithm design with system-level evaluation for real-time task offloading, scheduling, and resource allocation in edge, cloud, and mobile edge computing systems.
+This page collects selected research projects and tools for connecting algorithm design with system-level evaluation.
 
-I use this page to highlight concrete research efforts beyond individual papers, including software infrastructure, simulation frameworks, reproducibility artifacts, and future extensions of my work.
 
 ## mecRT: Mobile Edge Computing Simulator for Real-Time Applications
 
