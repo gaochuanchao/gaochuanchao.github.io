@@ -31,7 +31,7 @@
       return false;
     }
 
-    return ["/", "/research/", "/publications/", "/projects/", "/software/"].indexOf(normalizePath(url)) !== -1;
+    return ["/", "/research/", "/projects/", "/publications/", "/service/", "/software/"].indexOf(normalizePath(url)) !== -1;
   }
 
   function replacePage(html, url, shouldPush) {
