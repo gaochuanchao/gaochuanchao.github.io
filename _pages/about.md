@@ -12,7 +12,7 @@ redirect_from:
 
 # Gao Chuanchao
 
-I am a Ph.D. student in the College of Computing and Data Science at Nanyang Technological University (NTU), Singapore, supervised by [Prof. Arvind Easwaran](https://personal.ntu.edu.sg/arvinde/). I am a member of the [Cyber-Physical Systems Research Group](https://cps-research-group.github.io/) at NTU.
+I obtained my Ph.D. in the College of Computing and Data Science at Nanyang Technological University (NTU), Singapore, supervised by [Prof. Arvind Easwaran](https://personal.ntu.edu.sg/arvinde/). 
 
 My research focuses on *algorithmic foundations for heterogeneous resource allocation and scheduling* in real-time, network-integrated edge/cloud systems. I work on approximation algorithms, distributed scheduling, and system-level evaluation for mobile edge computing and cyber-physical systems.
 
