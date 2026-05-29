@@ -9,9 +9,9 @@ author_profile: true
 
 ## Program Committee
 
-- **Program Committee Member**, IEEE Real-Time Systems Symposium (RTSS), 2026.
+- **Technical Program Committee**, IEEE Real-Time Systems Symposium (RTSS), 2026.
+- **Technical Program Committee**, International Workshop on Real-time and IntelliGent Edge computing (RAGE), 2026.
 
 ## Reviewing
 
-- **Reviewer**, International Workshop on Real-time and IntelliGent Edge computing (RAGE), 2026.
 - **Reviewer**, IEEE Transactions on Computers, 2026.
