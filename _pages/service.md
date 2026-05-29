@@ -1,11 +1,11 @@
 ---
 permalink: /service/
-title: "Service"
-excerpt: "Professional service"
+title: "Services"
+excerpt: "Professional services"
 author_profile: true
 ---
 
-# Service
+# Services
 
 ## Program Committee
 

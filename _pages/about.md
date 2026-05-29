@@ -31,11 +31,11 @@ I am particularly interested in developing provable algorithms that remain conne
 
 See more on my [research directions](/research/).
 
-## Software & Research Artifacts
+## Projects
 
 - **[mecRT](https://github.com/gaochuanchao/mecRT)**: an open-source simulation framework for evaluating real-time task offloading, resource allocation, and scheduling algorithms in mobile edge computing systems.
 
-See more on [software and research artifacts](/projects/).
+See more on [projects](/projects/).
 
 ## Selected Publications
 

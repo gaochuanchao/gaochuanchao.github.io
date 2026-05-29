@@ -1,13 +1,15 @@
 ---
 permalink: /projects/
-title: "Software & Research Artifacts"
-excerpt: "Software and research artifacts"
+title: "Projects"
+excerpt: "Research projects"
 author_profile: true
 ---
 
-# Software & Research Artifacts
+# Projects
 
-This page collects software, simulators, experimental artifacts, and codebases developed as part of my research. These artifacts are intended to support reproducible evaluation of real-time task offloading, scheduling, and resource allocation algorithms in edge and mobile edge computing systems.
+This page collects selected research projects, systems, simulators, and experimental artifacts developed as part of my Ph.D. research and ongoing research agenda. These projects connect algorithm design with system-level evaluation for real-time task offloading, scheduling, and resource allocation in edge, cloud, and mobile edge computing systems.
+
+I use this page to highlight concrete research efforts beyond individual papers, including software infrastructure, simulation frameworks, reproducibility artifacts, and future extensions of my work.
 
 ## mecRT: Mobile Edge Computing Simulator for Real-Time Applications
 
