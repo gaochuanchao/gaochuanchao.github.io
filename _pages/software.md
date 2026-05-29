@@ -1,20 +1,12 @@
 ---
 permalink: /software/
 title: "Software"
-excerpt: "Software and open-source tools"
+excerpt: "Software and research artifacts"
 author_profile: true
 ---
 
 # Software
 
-## mecRT
+My software and experimental artifacts are now collected under [Software & Research Artifacts](/projects/).
 
-[mecRT](https://github.com/gaochuanchao/mecRT) is a simulation framework for **real-time mobile edge computing**. It supports full task lifecycle management, including task registration, resource allocation and scheduling, and dynamic offloading control.
-
-The framework also supports fault detection and recovery for faults in the backhaul network link, edge server, and global scheduler.
-
-Related publications:
-
-- [Fault-Tolerant Offloading Framework for Real-Time Applications in Mobile Edge Computing](</papers/Fault-Tolerant Offloading Framework for Real-Time Applications in Mobile Edge Computing.pdf>)
-- [Real-Time Service Subscription and Adaptive Offloading Control in Vehicular Edge Computing](</papers/Real-Time Service Subscription and Adaptive Offloading Control in Vehicular Edge Computing.pdf>)
-- [VecSim, a Vehicular Edge Computing Simulator for Real-Time Applications](</papers/VecSim, a Vehicular Edge Computing Simulator for Real-Time Applications.pdf>)
+The main artifact is [mecRT](https://github.com/gaochuanchao/mecRT), an open-source simulation framework for evaluating real-time task offloading, resource allocation, and scheduling algorithms in mobile edge computing systems.

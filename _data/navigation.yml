@@ -6,7 +6,7 @@ main:
   - title: "Research"
     url: "/research/"
 
-  - title: "Projects"
+  - title: "Software & Research Artifacts"
     url: "/projects/"
 
   - title: "Publications"
@@ -14,6 +14,3 @@ main:
 
   - title: "Service"
     url: "/service/"
-
-  - title: "Software"
-    url: "/software/"

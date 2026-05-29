@@ -1,38 +1,32 @@
 ---
 permalink: /projects/
-title: "Projects"
-excerpt: "Research projects"
+title: "Software & Research Artifacts"
+excerpt: "Software and research artifacts"
 author_profile: true
 ---
 
-# Projects
+# Software & Research Artifacts
 
-## Fault-Tolerant Real-Time Offloading
+This page collects software, simulators, experimental artifacts, and codebases developed as part of my research. These artifacts are intended to support reproducible evaluation of real-time task offloading, scheduling, and resource allocation algorithms in edge and mobile edge computing systems.
 
-This line of work studies fault-tolerant offloading for real-time mobile edge computing. The goal is to support deadline-constrained applications even when faults occur in the backhaul network link, edge server, or global scheduler.
+## mecRT: Mobile Edge Computing Simulator for Real-Time Applications
 
-Related work: [RTAS 2026 paper](</papers/Fault-Tolerant Offloading Framework for Real-Time Applications in Mobile Edge Computing.pdf>), [mecRT](https://github.com/gaochuanchao/mecRT).
+[mecRT](https://github.com/gaochuanchao/mecRT) is an open-source simulator for evaluating real-time task offloading and resource allocation algorithms in 5G-enabled mobile edge computing systems.
 
-## Vehicular Edge Computing
+It integrates 5G network modeling through Simu5G with edge computing abstractions, enabling system-level evaluation under wireless dynamics, deadline constraints, and heterogeneous edge resources.
 
-This project studies real-time service subscription, adaptive offloading control, and simulation support for vehicular edge computing systems.
+Key features:
 
-Related work: [RTSS 2025 paper](</papers/Real-Time Service Subscription and Adaptive Offloading Control in Vehicular Edge Computing.pdf>), [VecSim demo](</papers/VecSim, a Vehicular Edge Computing Simulator for Real-Time Applications.pdf>), [mecRT source](https://github.com/gaochuanchao/mecRT/tree/main/src).
+- Deadline-aware task offloading and resource allocation
+- Task lifecycle management, including task registration, execution, result retrieval, and deadline monitoring
+- 5G-based communication modeling via Simu5G
+- Support for adaptive offloading control under changing channel quality
+- Support for customizable scheduling policies and experimental evaluation scripts
 
-## Energy-Efficient Mobile Edge Computing
+Related publications:
 
-This work addresses energy-efficient real-time job mapping, offloading, and resource management in mobile and multi-access edge computing systems.
+- **RTAS 2026**: [Fault-Tolerant Offloading Framework for Real-Time Applications in Mobile Edge Computing](</papers/Fault-Tolerant Offloading Framework for Real-Time Applications in Mobile Edge Computing.pdf>)
+- **RTSS 2025**: [Real-Time Service Subscription and Adaptive Offloading Control in Vehicular Edge Computing](</papers/Real-Time Service Subscription and Adaptive Offloading Control in Vehicular Edge Computing.pdf>)
+- **RTCSA Demo 2025**: [VecSim, a Vehicular Edge Computing Simulator for Real-Time Applications](</papers/VecSim, a Vehicular Edge Computing Simulator for Real-Time Applications.pdf>)
 
-Related work: [RTSS 2024 paper](</papers/Energy-Efficient Real-Time Job Mapping and Resource Management in Mobile-Edge Computing.pdf>), [RTCSA 2025 paper](</papers/Energy-Efficient Joint Offloading and Resource Allocation for Deadline-Constrained Tasks in Multi-Access Edge Computing.pdf>).
-
-## Deadline-Constrained Multi-Resource Allocation
-
-This project studies task mapping and allocation when applications require multiple resources and must satisfy end-to-end deadlines in edge-cloud systems.
-
-Related work: [GLOBECOM 2022 paper](</papers/Deadline-constrained Multi-resource Task Mapping and Allocation for Edge-Cloud System.pdf>), [RTSS 2022 WiP paper](</papers/Work-in-Progress Deadline-Constrained Multi-Resource Allocation in Edge-Cloud System.pdf>).
-
-## Digital Twin Driven Cyber-Physical Systems
-
-This work studies anomaly detection for digital twin driven cyber-physical systems.
-
-Related work: [ICCPS 2021 paper](</papers/An anomaly detection framework for digital twin driven cyber-physical systems.pdf>).
+Links: [GitHub](https://github.com/gaochuanchao/mecRT)

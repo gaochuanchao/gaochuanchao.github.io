@@ -7,31 +7,18 @@ author_profile: true
 
 # Research
 
-My research develops algorithmic foundations for heterogeneous resource allocation and scheduling, with an emphasis on approximation algorithms, combinatorial optimization, and real-time guarantees for distributed systems.
+My research focuses on the algorithmic foundations of heterogeneous resource allocation and scheduling for real-time, network-integrated computing systems. I am particularly interested in designing provable and scalable algorithms for deadline-constrained task offloading, resource allocation, and scheduling in mobile edge computing systems.
 
-## Research Directions
+## Main Research Directions
 
-### Heterogeneous Resource Scheduling
+### Approximation Algorithms for Real-Time Edge Computing
 
-I study scheduling and allocation problems in systems where applications compete for multiple heterogeneous resources, including computing, communication, and edge-cloud infrastructure. My work focuses on algorithms with provable performance guarantees while remaining motivated by deployable real-time systems.
+Deadline-constrained task offloading, job mapping, bandwidth/computation allocation, generalized knapsack and matching formulations, and constant-factor approximation algorithms.
 
-### Network-Integrated Computing Systems
+### Distributed Resource Allocation in MEC Systems
 
-I am interested in systems where computation and networking decisions must be made jointly. This includes mobile edge computing, vehicular edge computing, and cyber-physical systems where offloading, routing, subscription, and resource allocation interact with timing constraints.
+Scalable distributed scheduling and coordination mechanisms for multi-edge-server systems, especially when global centralized scheduling becomes impractical.
 
-### Real-Time and Deadline-Constrained Optimization
+### System-Level Evaluation for Network-Integrated Real-Time Systems
 
-Many cyber-physical and edge applications must finish within strict deadlines. I work on mathematically grounded approaches for deadline-constrained task mapping, job offloading, resource management, and adaptive control.
-
-### Fault Tolerance and Adaptive Offloading
-
-My recent work studies fault-tolerant offloading frameworks for real-time applications in mobile edge computing, including detection and recovery mechanisms for failures in network links, edge servers, and scheduling components.
-
-## Keywords
-
-- Approximation algorithms
-- Combinatorial optimization
-- Real-time scheduling
-- Heterogeneous resource allocation
-- Mobile and vehicular edge computing
-- Network-integrated cyber-physical systems
+Bridging theoretical algorithm design with realistic 5G/MEC simulation, dynamic wireless conditions, service migration/offloading control, and fault-aware execution.
