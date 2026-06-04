@@ -12,7 +12,7 @@ redirect_from:
 
 # Gao Chuanchao
 
-I obtained my Ph.D. in the College of Computing and Data Science at Nanyang Technological University (NTU), Singapore, supervised by [Prof. Arvind Easwaran](https://personal.ntu.edu.sg/arvinde/). 
+I am a postdoctoral researcher at Uppsala University, Sweden, working with [Prof. Yi Wang](https://user.it.uu.se/~wangyi/). I received my Ph.D. from the College of Computing and Data Science at Nanyang Technological University (NTU), Singapore, under the supervision of [Prof. Arvind Easwaran](https://personal.ntu.edu.sg/arvinde/).
 
 My research focuses on *algorithmic foundations for heterogeneous resource allocation and scheduling* in real-time, network-integrated edge/cloud systems. I work on approximation algorithms, distributed scheduling, and system-level evaluation for mobile edge computing and cyber-physical systems.
 

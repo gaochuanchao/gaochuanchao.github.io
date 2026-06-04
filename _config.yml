@@ -22,12 +22,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Gao Chuanchao"
   avatar           : "/images/Photo_Chuanchao_Gao.png"
-  bio              : "Nanyang Technological University"
-  location         : "Singapore"
-  employer         : #"Nanyang Technological University"
+  bio              : "Postdoctoral Researcher, Uppsala University"
+  location         : "Uppsala, Sweden"
+  employer         : "Uppsala University"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=JN7s960AAAAJ"
-  email            : "gaoc0008@e.ntu.edu.sg"
+  email            : "chuanchao.gao@it.uu.se"
   researchgate     : "https://www.researchgate.net/profile/Chuanchao-Gao"
   uri              : 
   bitbucket        :
