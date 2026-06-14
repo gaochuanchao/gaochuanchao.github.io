@@ -107,3 +107,25 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+.page__content details {
+    margin: .45em 0 1em 0;
+    padding: .45em .75em;
+    border-left: 3px solid #4f7cac;
+    background-color: #f6f9fc;
+    color: #4a5568;
+}
+
+.page__content details summary {
+    color: #255f8f;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.page__content details[open] summary {
+    margin-bottom: .45em;
+}
+
+.page__content details p {
+    margin-bottom: 0;
+}
