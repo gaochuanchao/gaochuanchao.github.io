@@ -27,6 +27,11 @@ In this line of work, I study forwarding-enabled offloading for real-time applic
 - In [[RTCSA'25]](</papers/Energy-Efficient Real-Time Job Mapping and Resource Management in Mobile-Edge Computing.pdf>), we proposed a (1-\alpha)/2-approximation algorithm for this setting, where \alpha is the fairness factor that constraints the maximum portion of an edge server's resources that can be allocated to a single task. For continuous resource allocation, the gurantee becomes (1-\alpha)/(2+\epsilon), where \epsilon is a small positive constant due to resource discretization.
 - In [[RTAS'26]](</papers/Fault-Tolerant Offloading Framework for Real-Time Applications in Mobile Edge Computing.pdf>), we developed the first constant-factor approximation algorithm for this setting, with a 1/10 theoretical guarantee and linear runtime complexity.
 
+#### 1.3 Real-time job mapping and resource management in mobile edge computing
+In this line of work, I study energy-efficient job mapping and resource management for deadline-constrained workloads in mobile-edge computing. Each job consists of three operations: offloading, processing, and downloading; for each operation, the scheduler must decide which edge node should execute it. The resulting optimization problem jointly captures job placement, resource allocation, and operation-stage scheduling, generalizing both three-stage flow-shop scheduling and unrelated-machine scheduling.
+
+- In [[RTSS'24]](</papers/Energy-Efficient Real-Time Job Mapping and Resource Management in Mobile-Edge Computing.pdf>), we designed the first constant-factor approximation algorithm for this class of problems.
+
 ### 2. Distributed Approximation Algorithms for Real-Time Edge Computing
 
 Designing distributed algorithms for real-time task offloading and resource allocation in mobile edge computing systems. In this setting, no global scheduler exists, and each edge server makes local decisions based on limited information.
