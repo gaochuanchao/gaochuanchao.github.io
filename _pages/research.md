@@ -24,6 +24,7 @@ In this line of work, I study the problem of offloading real-time tasks to edge 
 
 In this line of work, I study forwarding-enabled offloading for real-time applications in mobile edge computing systems. After a task is offloaded to an edge server, it may be forwarded to another server for processing, allowing the system to balance load more effectively and use edge resources more flexibly. This added flexibility also makes resource management more challenging: the resulting optimization problem generalizes both the two-dimensional multiple-choice assignment problem and the three-dimensional matching problem.
 
+- In [[GLOBECOM'22]](</papers/Deadline-constrained Multi-resource Task Mapping and Allocation for Edge-Cloud System.pdf>), we proposed a greedy heuristic algorithm for this setting.
 - In [[RTSS'22]](</papers/Work-in-Progress Deadline-Constrained Multi-Resource Allocation in Edge-Cloud System.pdf>), we defined a forwarding model that considers resource contentions during task forwarding and proposed a heuristic algorithm for this setting.
 - In [[RTCSA'25]](</papers/Energy-Efficient Real-Time Job Mapping and Resource Management in Mobile-Edge Computing.pdf>), we proposed a (1-\alpha)/2-approximation algorithm for this setting, where \alpha is the fairness factor that constraints the maximum portion of an edge server's resources that can be allocated to a single task. For continuous resource allocation, the gurantee becomes (1-\alpha)/(2+\epsilon), where \epsilon is a small positive constant due to resource discretization.
 - In [[RTAS'26]](</papers/Fault-Tolerant Offloading Framework for Real-Time Applications in Mobile Edge Computing.pdf>), we developed the first constant-factor approximation algorithm for this setting, with a 1/10 theoretical guarantee and linear runtime complexity.
@@ -39,4 +40,9 @@ Designing distributed algorithms for real-time task offloading and resource allo
 
 ### 3. System-Level Evaluation for Network-Integrated Real-Time Systems
 
-Designing and implementing simulation frameworks for evaluating real-time task offloading, resource allocation, and scheduling algorithms in mobile edge computing systems. In this line of work, I focus on developing realistic simulators that capture the dynamics of wireless communication, heterogeneous edge resources, and deadline-aware execution. Open-source projects: [mecRT](https://github.com/gaochuanchao/mecRT).
+Designing and implementing simulation frameworks for evaluating real-time task offloading, resource allocation, and scheduling algorithms in mobile edge computing systems. In this line of work, I focus on developing realistic simulators that capture the dynamics of wireless communication, heterogeneous edge resources, and deadline-aware execution. 
+
+Open-source projects: [mecRT](https://github.com/gaochuanchao/mecRT).
+
+- In [[RTCSA'25]](</papers/VecSim, a Vehicular Edge Computing Simulator for Real-Time Applications.pdf>), we proposed VecSim, a vehicular edge computing simulator for real-time applications, which is open-sourced as part of the mecRT project.
+
