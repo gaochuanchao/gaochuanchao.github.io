@@ -30,7 +30,7 @@ In this line of work, I study forwarding-enabled offloading for real-time applic
 - In [[RTAS'26]](</papers/Fault-Tolerant Offloading Framework for Real-Time Applications in Mobile Edge Computing.pdf>), we developed the first constant-factor approximation algorithm for this setting, with a 1/10 theoretical guarantee and linear runtime complexity.
 
 #### 1.3 Real-time job mapping and resource management in mobile edge computing
-In this line of work, I study energy-efficient job mapping and resource management for deadline-constrained workloads in mobile-edge computing. Each job consists of three operations: offloading, processing, and downloading; for each operation, the scheduler must decide which edge node should execute it. The resulting optimization problem jointly captures job placement, resource allocation, and operation-stage scheduling, generalizing both three-stage flow-shop scheduling and unrelated-machine scheduling.
+In this line of work, I study energy-efficient job mapping and resource management for deadline-constrained workloads in mobile-edge computing. Each job consists of three operations: offloading, processing, and downloading; for each operation, the scheduler must decide which edge node should execute it, when to execute it, and how much resources to allocate for each operation. The resulting optimization problem jointly captures job mapping, resource allocation, and operation-stage scheduling, generalizing both three-stage flow-shop scheduling and unrelated-machine scheduling.
 
 - In [[RTSS'24]](</papers/Energy-Efficient Real-Time Job Mapping and Resource Management in Mobile-Edge Computing.pdf>), we designed the first constant-factor approximation algorithm for this class of problems.
 
