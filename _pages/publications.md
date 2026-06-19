@@ -9,7 +9,7 @@ author_profile: true
 
 ## 2026
 
-- [**RTAS'26**] `Chuanchao Gao`, Yiyang Gao, Michael Yuhas, Arvind Easwaran. *Fault-Tolerant Offloading Framework for Real-Time Applications in Mobile Edge Computing*. IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS), 2026. [[Download]](</papers/Fault-Tolerant Offloading Framework for Real-Time Applications in Mobile Edge Computing.pdf>) [[Open Source Project: mecRT]](https://github.com/gaochuanchao/mecRT)
+- [**RTAS'26**] `Chuanchao Gao`, Yiyang Gao, Michael Yuhas, Arvind Easwaran. *Fault-Tolerant Offloading Framework for Real-Time Applications in Mobile Edge Computing*. IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS), 2026. [[HTML]](https://doi.org/10.1109/RTAS68450.2026.00028) [[Download]](</papers/Fault-Tolerant Offloading Framework for Real-Time Applications in Mobile Edge Computing.pdf>) [[Open Source Project: mecRT]](https://github.com/gaochuanchao/mecRT)
 
   <details class="overview-details">
   <summary>Brief overview</summary>
