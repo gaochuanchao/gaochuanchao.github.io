@@ -109,15 +109,13 @@ h1:before, .anchor:before {
 }
 
 .page__content details {
-    margin: .45em 0 1em 0;
-    padding: .45em .75em;
-    border-left: 3px solid #4f7cac;
-    background-color: #f6f9fc;
-    color: #4a5568;
+    margin: .45em 0 1em 1.25em;
+    padding: 0;
+    color: inherit;
 }
 
 .page__content details summary {
-    color: #255f8f;
+    color: inherit;
     font-weight: 600;
     cursor: pointer;
 }
@@ -126,12 +124,22 @@ h1:before, .anchor:before {
     margin-bottom: .45em;
 }
 
-.page__content details p {
+.page__content details .details-content {
+    padding: .45em .75em;
+    border-left: 3px solid #4f7cac;
+    background-color: #f6f9fc;
+    color: #4a5568;
+}
+
+.page__content details .details-content p,
+.page__content details .details-content > :last-child {
     margin-bottom: 0;
 }
 
 .sidebar.sticky {
     @include breakpoint($large) {
+        position: fixed;
+        top: 6em;
         -webkit-transform: none;
                 transform: none;
     }
