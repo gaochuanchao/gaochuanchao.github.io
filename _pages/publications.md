@@ -11,7 +11,7 @@ author_profile: true
 
 - [RTAS'26] `Chuanchao Gao`, Yiyang Gao, Michael Yuhas, Arvind Easwaran. *Fault-Tolerant Offloading Framework for Real-Time Applications in Mobile Edge Computing*. **IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS)**, 2026. [[Download]](</papers/Fault-Tolerant Offloading Framework for Real-Time Applications in Mobile Edge Computing.pdf>) [[Open Source Project: mecRT]](https://github.com/gaochuanchao/mecRT)
 
-  <details>
+  <details class="overview-details">
   <summary>Brief overview</summary>
   <div class="details-content">
 
@@ -24,7 +24,7 @@ author_profile: true
 
 - [RTSS'25] `Chuanchao Gao`, Arvind Easwaran. *Real-Time Service Subscription and Adaptive Offloading Control in Vehicular Edge Computing*. **IEEE Real-Time Systems Symposium (RTSS)**, 2025. [[HTML]](https://doi.org/10.1109/RTSS66672.2025.00023) [[Download]](</papers/Real-Time Service Subscription and Adaptive Offloading Control in Vehicular Edge Computing.pdf>) [[Open Source Project: mecRT]](https://github.com/gaochuanchao/mecRT)
 
-  <details>
+  <details class="overview-details">
   <summary>Brief overview</summary>
   <div class="details-content">
 
@@ -37,7 +37,7 @@ author_profile: true
 - [RTCSA'25] `Chuanchao Gao` and Arvind Easwaran. *VecSim, a Vehicular Edge Computing Simulator for Real-Time Applications*. Demo Session of IEEE International Conference on Embedded and Real-Time Computing Systems and Applications (RTCSA), 2025. [[HTML]](https://doi.org/10.1109/RTCSA66114.2025.00033) [[Download]](</papers/VecSim, a Vehicular Edge Computing Simulator for Real-Time Applications.pdf>) [[Open Source Project: mecRT]](https://github.com/gaochuanchao/mecRT/tree/main/src)
 - [RAGE'25] `Chuanchao Gao` and Arvind Easwaran. *Local Ratio based Real-time Job Offloading and Resource Allocation in Mobile Edge Computing*. International Workshop on Real-time and IntelliGent Edge computing (RAGE), 2025. [[HTML]](https://doi.org/10.1145/3722567.3727843) [[Download]](</papers/Local Ratio based Real-time Job Offloading and Resource Allocation in Mobile Edge Computing.pdf>)
 
-  <details>
+  <details class="overview-details">
   <summary>Brief overview</summary>
   <div class="details-content">
 
@@ -50,7 +50,7 @@ author_profile: true
 
 - [RTSS'24] `Chuanchao Gao`, Niraj Kumar, Arvind Easwaran. *Energy-Efficient Real-Time Job Mapping and Resource Management in Mobile-Edge Computing*. **IEEE Real-Time Systems Symposium (RTSS)**, 2024. [[HTML]](https://doi.org/10.1109/RTSS62706.2024.00012) [[Download]](</papers/Energy-Efficient Real-Time Job Mapping and Resource Management in Mobile-Edge Computing.pdf>) [[Experiments Data]](https://github.com/CPS-research-group/CPS-NTU-Public/tree/RTSS2024)
 
-  <details>
+  <details class="overview-details">
   <summary>Brief overview</summary>
   <div class="details-content">
 

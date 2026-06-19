@@ -108,38 +108,42 @@ h1:before, .anchor:before {
     font-size: .8em;
 }
 
-.page__content details {
-    margin: .45em 0 1em 1.25em;
-    padding: 0;
-    color: inherit;
+.page__content details.overview-details {
+    margin: .45em 0 1em 1.25em !important;
+    padding: 0 !important;
+    border-left: 0 !important;
+    background: transparent !important;
+    color: inherit !important;
 }
 
-.page__content details summary {
-    color: inherit;
+.page__content details.overview-details > summary {
+    color: inherit !important;
     font-weight: 600;
     cursor: pointer;
+    background: transparent !important;
 }
 
-.page__content details[open] summary {
+.page__content details.overview-details[open] > summary {
     margin-bottom: .45em;
 }
 
-.page__content details .details-content {
+.page__content details.overview-details > .details-content {
     padding: .45em .75em;
     border-left: 3px solid #4f7cac;
     background-color: #f6f9fc;
     color: #4a5568;
 }
 
-.page__content details .details-content p,
-.page__content details .details-content > :last-child {
+.page__content details.overview-details > .details-content p,
+.page__content details.overview-details > .details-content > :last-child {
     margin-bottom: 0;
 }
 
-.sidebar.sticky {
+.sidebar.sidebar--fixed {
     @include breakpoint($large) {
-        position: fixed;
-        top: 6em;
+        position: fixed !important;
+        top: 6em !important;
+        bottom: auto !important;
         -webkit-transform: none;
                 transform: none;
     }
