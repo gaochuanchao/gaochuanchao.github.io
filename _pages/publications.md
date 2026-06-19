@@ -28,7 +28,7 @@ author_profile: true
   <summary>Brief overview</summary>
   <div class="details-content">
 
-  This paper studies real-time task offloading in vehicular edge computing, where each offloaded task must be assigned an edge server, the bandwidth for offloading, and computation resources for processing. The resulting optimization problem generalizes the Generalized Assignment Problem (GAP) by introducing two-dimensional resource constraints and multiple resource-allocation choices for each task-server pair. We formalize this setting as the two-dimensional multiple-choice assignment problem and design SARound, a 1/4-approximation algorithm. We also show how to improve the guarantee to 1/(2+epsilon) with higher runtime complexity, yielding the best known approximation guarantee for this class of problems.
+  This paper studies real-time task offloading in vehicular edge computing, where each offloaded task must be assigned an edge server, the bandwidth for offloading, and computation resources for processing. The resulting optimization problem generalizes the Generalized Assignment Problem (GAP) by introducing two-dimensional resource constraints and multiple resource-allocation choices for each task-server pair. We formalize this setting as the two-dimensional multiple-choice assignment problem and design SARound, a 1/4-approximation algorithm. We also show how to improve the guarantee to 1/(2+ε) with higher runtime complexity, yielding the best known approximation guarantee for this class of problems.
 
   </div>
   </details>
