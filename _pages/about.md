@@ -39,7 +39,7 @@ See more on [projects](/projects/).
 
 ## Selected Publications
 
-- `Chuanchao Gao`, Yiyang Gao, Michael Yuhas, Arvind Easwaran. *Fault-Tolerant Offloading Framework for Real-Time Applications in Mobile Edge Computing*. **IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS)**, 2026. [[Download]](</papers/Fault-Tolerant Offloading Framework for Real-Time Applications in Mobile Edge Computing.pdf>) [[Research Artifact: mecRT]](https://github.com/gaochuanchao/mecRT)
+- [**RTAS'26**] `Chuanchao Gao`, Yiyang Gao, Michael Yuhas, Arvind Easwaran. *Fault-Tolerant Offloading Framework for Real-Time Applications in Mobile Edge Computing*. IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS), 2026. [[Download]](</papers/Fault-Tolerant Offloading Framework for Real-Time Applications in Mobile Edge Computing.pdf>) [[Research Artifact: mecRT]](https://github.com/gaochuanchao/mecRT)
 
   <details class="overview-details">
   <summary>Brief overview</summary>
@@ -50,7 +50,7 @@ See more on [projects](/projects/).
   </div>
   </details>
 
-- `Chuanchao Gao`, Arvind Easwaran. *Real-Time Service Subscription and Adaptive Offloading Control in Vehicular Edge Computing*. **IEEE Real-Time Systems Symposium (RTSS)**, 2025. [[HTML]](https://doi.org/10.1109/RTSS66672.2025.00023) [[Download]](</papers/Real-Time Service Subscription and Adaptive Offloading Control in Vehicular Edge Computing.pdf>) [[Research Artifact: mecRT]](https://github.com/gaochuanchao/mecRT)
+- [**RTSS'25**] `Chuanchao Gao`, Arvind Easwaran. *Real-Time Service Subscription and Adaptive Offloading Control in Vehicular Edge Computing*. IEEE Real-Time Systems Symposium (RTSS), 2025. [[HTML]](https://doi.org/10.1109/RTSS66672.2025.00023) [[Download]](</papers/Real-Time Service Subscription and Adaptive Offloading Control in Vehicular Edge Computing.pdf>) [[Research Artifact: mecRT]](https://github.com/gaochuanchao/mecRT)
 
   <details class="overview-details">
   <summary>Brief overview</summary>
@@ -61,7 +61,7 @@ See more on [projects](/projects/).
   </div>
   </details>
 
-- `Chuanchao Gao`, Niraj Kumar, Arvind Easwaran. *Energy-Efficient Real-Time Job Mapping and Resource Management in Mobile-Edge Computing*. **IEEE Real-Time Systems Symposium (RTSS)**, 2024. [[HTML]](https://doi.org/10.1109/RTSS62706.2024.00012) [[Download]](</papers/Energy-Efficient Real-Time Job Mapping and Resource Management in Mobile-Edge Computing.pdf>) [[Experiments Data]](https://github.com/CPS-research-group/CPS-NTU-Public/tree/RTSS2024)
+- [**RTSS'24**] `Chuanchao Gao`, Niraj Kumar, Arvind Easwaran. *Energy-Efficient Real-Time Job Mapping and Resource Management in Mobile-Edge Computing*. IEEE Real-Time Systems Symposium (RTSS), 2024. [[HTML]](https://doi.org/10.1109/RTSS62706.2024.00012) [[Download]](</papers/Energy-Efficient Real-Time Job Mapping and Resource Management in Mobile-Edge Computing.pdf>) [[Experiments Data]](https://github.com/CPS-research-group/CPS-NTU-Public/tree/RTSS2024)
 
   <details class="overview-details">
   <summary>Brief overview</summary>
