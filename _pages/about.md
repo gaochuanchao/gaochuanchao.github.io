@@ -12,11 +12,13 @@ redirect_from:
 
 # Gao Chuanchao
 
-I am a postdoctoral researcher at Uppsala University, Sweden, working with [Prof. Yi Wang](https://user.it.uu.se/~wangyi/). I received my Ph.D. from the College of Computing and Data Science at Nanyang Technological University (NTU), Singapore, under the supervision of [Prof. Arvind Easwaran](https://personal.ntu.edu.sg/arvinde/).
+I am a Postdoctoral Researcher at Uppsala University, Sweden, working with [Prof. Yi Wang](https://user.it.uu.se/~wangyi/). I received my Ph.D. from the College of Computing and Data Science at Nanyang Technological University (NTU), Singapore, under the supervision of [Prof. Arvind Easwaran](https://personal.ntu.edu.sg/arvinde/).
 
-My research focuses on *algorithmic foundations for heterogeneous resource allocation and scheduling* in real-time, network-integrated edge/cloud systems. I work on approximation algorithms, distributed scheduling, and system-level evaluation for mobile edge computing and cyber-physical systems.
+My research focuses on **real-time, distributed, and network-integrated computing systems**. I develop algorithmic and system-level methods for resource allocation, scheduling, and coordination in systems where computation, communication, and timing constraints must be considered together.
 
-I am particularly interested in developing provable algorithms that remain connected to practical constraints such as wireless dynamics, deadline-aware execution, and heterogeneous edge resources.
+My Ph.D. research established approximation-algorithmic foundations for real-time task offloading and heterogeneous resource management in mobile edge computing systems. In my postdoctoral research, I am expanding this line toward **deterministic and updateable cyber-physical systems**, with interests in communication-aware scheduling, model-based real-time system design, co-simulation, and simulation infrastructure for network-integrated systems.
+
+I am particularly interested in developing methods that combine **provable guarantees** with practical system constraints, including wireless dynamics, deadline-aware execution, heterogeneous edge resources, communication delays, and deterministic component interactions.
 
 📎 Download my [Curriculum Vitae](/papers/AcademicCV.pdf).
 
@@ -24,10 +26,11 @@ I am particularly interested in developing provable algorithms that remain conne
 
 ## Research Profile
 
-- Approximation algorithms for real-time edge computing
-- Distributed resource allocation in mobile edge computing systems
-- System-level evaluation for network-integrated real-time systems
-- Heterogeneous resource scheduling and combinatorial optimization
+- Real-time resource allocation and scheduling for edge/cloud systems
+- Approximation algorithms and combinatorial optimization for deadline-constrained systems
+- Distributed coordination for network-integrated real-time systems
+- Communication-aware scheduling and deterministic component-based design
+- Co-simulation and simulation infrastructure for cyber-physical and edge systems
 
 See more on my [research directions](/research/).
 

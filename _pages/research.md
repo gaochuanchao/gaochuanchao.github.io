@@ -7,42 +7,79 @@ author_profile: true
 
 # Research
 
-My research focuses on the algorithmic foundations of heterogeneous resource allocation and scheduling for real-time, network-integrated computing systems. I am particularly interested in designing provable and scalable algorithms for deadline-constrained task offloading, resource allocation, and scheduling in mobile edge computing systems.
+My research studies **coordination, resource allocation, and scheduling in distributed real-time computing systems**. I am interested in systems where computation, communication, and timing constraints interact, such as mobile edge computing, network-integrated cyber-physical systems, vehicular systems, and deterministic component-based real-time systems.
+
+A central goal of my work is to develop methods that are both **theoretically grounded** and **system-aware**: algorithms should provide rigorous performance guarantees, while also capturing practical constraints such as wireless dynamics, heterogeneous resources, communication delays, deadline-aware execution, and distributed decision making.
 
 ## Main Research Directions
 
-### 1. Centralized Approximation Algorithms for Real-Time Edge Computing
+### 1. Algorithmic Foundations for Real-Time Edge Computing
+This line of work develops approximation algorithms and optimization models for real-time task offloading, resource allocation, and scheduling in mobile edge computing systems. The key challenge is that each task may require multiple types of resources, such as wireless bandwidth and edge computation, while also having strict timing requirements.
 
-#### 1.1 Real-time task offloading in mobile edge computing
+#### 1.1 Real-time task offloading and resource allocation
 
-In this line of work, I study the problem of offloading real-time tasks to edge servers, where each offloaded task is processed on the edge server it is offloaded to. In this setting, the scheduler must decide which edge server to offload each task to, how much bandwidth to allocate for offloading, and how much computation resources to allocate for processing. The resulting optimization problem generalizes the Generalized Assignment Problem (GAP) by introducing two-dimensional resource constraints and multiple resource-allocation choices for each task-server pair. I formalize this setting as the two-dimensional multiple-choice assignment problem and design approximation algorithms with provable guarantees.
+I study real-time task offloading problems where the scheduler must decide which edge server should process each task, how much bandwidth should be allocated for offloading, and how much computation capacity should be allocated for execution.
 
+These problems generalize classical assignment and scheduling problems by introducing multi-dimensional resource constraints, heterogeneous task-server choices, and deadline-aware feasibility requirements. My work develops approximation algorithms with provable performance guarantees for these problem classes.
+
+Representative work:
 - In [[RAGE'25]](</papers/Local Ratio based Real-time Job Offloading and Resource Allocation in Mobile Edge Computing.pdf>), we proposed the first constant-factor approximation algorithm for this class of problems, with a 1/6 guarantee.
-- In [[RTSS'25]](</papers/Real-Time Service Subscription and Adaptive Offloading Control in Vehicular Edge Computing.pdf>), we improved the guarantee to 1/4 with cubic runtime complexity, and further showed how to improve the guarantee to 1/(2+ε) with higher runtime complexity, yielding the best known approximation guarantee for this class of problems.
+- In [[RTSS'25]](</papers/Real-Time Service Subscription and Adaptive Offloading Control in Vehicular Edge Computing.pdf>), we improved the guarantee to 1/4 with cubic runtime complexity, and further showed how to improve the guarantee to 1/(2+ε) with higher runtime complexity.
 
-#### 1.2 Forwarding-enabled real-time offloading in mobile edge computing
+#### 1.2 Forwarding-enabled real-time offloading
 
-In this line of work, I study forwarding-enabled offloading for real-time applications in mobile edge computing systems. After a task is offloaded to an edge server, it may be forwarded to another server for processing, allowing the system to balance load more effectively and use edge resources more flexibly. This added flexibility also makes resource management more challenging: the resulting optimization problem generalizes both the two-dimensional multiple-choice assignment problem and the three-dimensional matching problem.
+I also study forwarding-enabled offloading, where a task may first be offloaded to one edge server and then forwarded to another server for processing. This added flexibility can improve resource utilization and load balancing, but it also creates more complex interactions among communication, computation, and timing constraints.
 
-- In [[GLOBECOM'22]](</papers/Deadline-constrained Multi-resource Task Mapping and Allocation for Edge-Cloud System.pdf>), we proposed a greedy heuristic algorithm for this setting.
-- In [[RTSS'22]](</papers/Work-in-Progress Deadline-Constrained Multi-Resource Allocation in Edge-Cloud System.pdf>), we defined a forwarding model that considers resource contentions during task forwarding and proposed a heuristic algorithm for this setting.
-- In [[RTCSA'25]](</papers/Energy-Efficient Real-Time Job Mapping and Resource Management in Mobile-Edge Computing.pdf>), we proposed a (1-α)/2-approximation algorithm for this setting, where α is the fairness factor that constrains the maximum portion of an edge server's resources that can be allocated to a single task. For continuous resource allocation, the gurantee becomes (1-α)/(2+ε), where ε is a small positive constant due to resource discretization.
-- In [[RTAS'26]](</papers/Fault-Tolerant Offloading Framework for Real-Time Applications in Mobile Edge Computing.pdf>), we developed the first constant-factor approximation algorithm for this setting, with a 1/10 theoretical guarantee and linear runtime complexity.
+Representative work:
+- In [[GLOBECOM'22]](</papers/Deadline-constrained Multi-resource Task Mapping and Allocation for Edge-Cloud System.pdf>), we proposed a greedy heuristic algorithm for forwarding-enabled offloading.
+- In [[RTSS'22]](</papers/Work-in-Progress Deadline-Constrained Multi-Resource Allocation in Edge-Cloud System.pdf>), we defined a forwarding model that considers resource contentions during task forwarding.
+- In [[RTCSA'25]](</papers/Energy-Efficient Real-Time Job Mapping and Resource Management in Mobile-Edge Computing.pdf>), we developed approximation algorithms for forwarding-enabled real-time task allocation under fairness constraints.
+- In [[RTAS'26]](</papers/Fault-Tolerant Offloading Framework for Real-Time Applications in Mobile Edge Computing.pdf>), we developed FastSA, the first constant-factor approximation algorithm for this setting, with a 1/10 theoretical guarantee and linear runtime complexity.
 
-#### 1.3 Real-time job mapping and resource management in mobile edge computing
-In this line of work, I study energy-efficient job mapping and resource management for deadline-constrained workloads in mobile-edge computing. Each job consists of three operations: offloading, processing, and downloading; for each operation, the scheduler must decide which edge node should execute it, when to execute it, and how much resources to allocate for each operation. The resulting optimization problem jointly captures job mapping, resource allocation, and operation-stage scheduling, generalizing both three-stage flow-shop scheduling and unrelated-machine scheduling.
+#### 1.3 Real-time job mapping and multi-stage resource management
+In this direction, I study deadline-constrained jobs that consist of multiple execution stages, such as offloading, processing, and downloading. The scheduler must jointly decide where each stage should execute, when it should execute, and how much resource should be allocated to it.
 
-- In [[RTSS'24]](</papers/Energy-Efficient Real-Time Job Mapping and Resource Management in Mobile-Edge Computing.pdf>), we designed the first constant-factor approximation algorithm for this class of problems.
+These problems connect real-time scheduling, flow-shop scheduling, unrelated-machine scheduling, and edge resource management.
 
-### 2. Distributed Approximation Algorithms for Real-Time Edge Computing
+Representative work:
+- In [[RTSS'24]](</papers/Energy-Efficient Real-Time Job Mapping and Resource Management in Mobile-Edge Computing.pdf>), we designed the first constant-factor approximation algorithm for energy-efficient real-time job mapping and resource management in mobile edge computing.
 
-Designing distributed algorithms for real-time task offloading and resource allocation in mobile edge computing systems. In this setting, no global scheduler exists, and each edge server makes local decisions based on limited information.
+### 2. Distributed Coordination for Network-Integrated Real-Time Systems
 
-### 3. System-Level Evaluation for Network-Integrated Real-Time Systems
+Many edge and cyber-physical systems cannot rely on a single centralized scheduler. Edge servers, vehicles, sensors, and controllers often need to make decisions based on partial and local information. This motivates distributed algorithms that can provide predictable behavior despite limited coordination.
 
-Designing and implementing simulation frameworks for evaluating real-time task offloading, resource allocation, and scheduling algorithms in mobile edge computing systems. In this line of work, I focus on developing realistic simulators that capture the dynamics of wireless communication, heterogeneous edge resources, and deadline-aware execution. 
+In this line of work, I study distributed resource allocation and scheduling problems where each node makes local decisions while still contributing to global timing and resource objectives. I am particularly interested in understanding the tradeoff between algorithmic guarantees, communication overhead, and implementation practicality.
 
-Open-source projects: [mecRT](https://github.com/gaochuanchao/mecRT).
+Current interests include:
+- distributed approximation algorithms for real-time task allocation;
+- local decision making under deadline and resource constraints;
+- coordination mechanisms for edge servers and cyber-physical components;
+- the cost of information exchange in distributed scheduling.
 
+### 3. Deterministic and Communication-Aware Real-Time System Design
+In my postdoctoral research, I am expanding my work from real-time edge resource management toward deterministic and updateable cyber-physical systems. A key question is how to preserve timing and semantic guarantees when real-time components interact through communication channels, shared registers, or distributed execution platforms.
+
+I am particularly interested in communication-aware scheduling and mapping for deterministic component models, such as LET-style or MIMOS-style systems. In these systems, computation and communication should not be treated separately: communication delays, data-transfer mechanisms, and task placement decisions can directly affect timing feasibility and deterministic behavior.
+
+Current interests include:
+- communication-aware task mapping and schedulability analysis;
+- deterministic component interaction under nonzero communication delays;
+- preserving timing semantics under distributed deployment;
+- updateability and non-interference in real-time component graphs.
+
+### 4. Co-Simulation and Simulation Infrastructure
+I design and implement simulation frameworks for evaluating real-time task offloading, resource allocation, scheduling, and coordination algorithms. My goal is to connect theoretical algorithm design with realistic system-level evaluation.
+
+This direction includes simulation infrastructure for mobile edge computing and vehicular edge systems, as well as broader interests in co-simulation and parallel discrete-event simulation for distributed cyber-physical systems.
+
+Representative work:
+- [mecRT](https://github.com/gaochuanchao/mecRT) is an open-source simulation framework for evaluating real-time task offloading, resource allocation, and scheduling algorithms in mobile edge computing systems.
 - In [[RTCSA'25]](</papers/VecSim, a Vehicular Edge Computing Simulator for Real-Time Applications.pdf>), we proposed VecSim, a vehicular edge computing simulator for real-time applications, which is open-sourced as part of the mecRT project.
+
+Current interests include:
+- simulation support for network-integrated real-time systems;
+- co-simulation of heterogeneous real-time and cyber-physical components;
+- scalable simulation methods for edge and vehicular systems;
+- reproducible evaluation infrastructure for scheduling and resource-allocation algorithms.
+
 
