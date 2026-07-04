@@ -12,7 +12,7 @@ redirect_from:
 
 # Gao Chuanchao
 
-I am a Postdoctoral Researcher at Uppsala University, Sweden, working with [Prof. Yi Wang](https://user.it.uu.se/~wangyi/). I received my Ph.D. from the College of Computing and Data Science at Nanyang Technological University (NTU), Singapore, under the supervision of [Prof. Arvind Easwaran](https://personal.ntu.edu.sg/arvinde/).
+I am a Postdoctoral Researcher at Uppsala University, Sweden. I received my Ph.D. from the College of Computing and Data Science at Nanyang Technological University (NTU), Singapore, under the supervision of [Prof. Arvind Easwaran](https://personal.ntu.edu.sg/arvinde/).
 
 My research focuses on **real-time, distributed, and network-integrated computing systems**. I develop algorithmic and system-level methods for resource allocation, scheduling, and coordination in systems where computation, communication, and timing constraints must be considered together.
 
