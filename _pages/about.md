@@ -16,7 +16,7 @@ I am a Postdoctoral Researcher at Uppsala University, Sweden. I received my Ph.D
 
 My research focuses on **real-time, distributed, and network-integrated computing systems**. I develop algorithmic and system-level methods for resource allocation, scheduling, and coordination in systems where computation, communication, and timing constraints must be considered together.
 
-My Ph.D. research established approximation-algorithmic foundations for real-time task offloading and heterogeneous resource management in mobile edge computing systems. In my postdoctoral research, I am extending this work toward **modular design principles for cyber-physical systems**, aiming to improve the efficiency of system composition, interaction, and coordination. This includes work on communication-aware scheduling, co-simulation, and simulation infrastructure for network-integrated systems.
+My Ph.D. research established approximation-algorithmic foundations for real-time task offloading and heterogeneous resource management in mobile edge computing systems. In my postdoctoral research, I am extending this work toward **modular design principles for cyber-physical systems**, aiming to improve the efficiency of system composition, interaction, and coordination.
 
 I am particularly interested in developing methods for cyber-physical systems that combine provable guarantees with practical deployment constraints, especially in applications involving collaborative sensing and control.
 
