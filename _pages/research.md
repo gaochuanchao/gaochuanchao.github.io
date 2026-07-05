@@ -56,18 +56,7 @@ Current interests include:
 - coordination mechanisms for edge servers and cyber-physical components;
 - the cost of information exchange in distributed scheduling.
 
-### 3. Deterministic and Communication-Aware Real-Time System Design
-In my postdoctoral research, I am expanding my work from real-time edge resource management toward deterministic and updateable cyber-physical systems. A key question is how to preserve timing and semantic guarantees when real-time components interact through communication channels, shared registers, or distributed execution platforms.
-
-I am particularly interested in communication-aware scheduling and mapping for deterministic component models, such as LET-style or MIMOS-style systems. In these systems, computation and communication should not be treated separately: communication delays, data-transfer mechanisms, and task placement decisions can directly affect timing feasibility and deterministic behavior.
-
-Current interests include:
-- communication-aware task mapping and schedulability analysis;
-- deterministic component interaction under nonzero communication delays;
-- preserving timing semantics under distributed deployment;
-- updateability and non-interference in real-time component graphs.
-
-### 4. Co-Simulation and Simulation Infrastructure
+### 3. Co-Simulation and Simulation Infrastructure
 I design and implement simulation frameworks for evaluating real-time task offloading, resource allocation, scheduling, and coordination algorithms. My goal is to connect theoretical algorithm design with realistic system-level evaluation.
 
 This direction includes simulation infrastructure for mobile edge computing and vehicular edge systems, as well as broader interests in co-simulation and parallel discrete-event simulation for distributed cyber-physical systems.
