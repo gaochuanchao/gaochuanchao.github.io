@@ -23,10 +23,9 @@ My Ph.D. research established approximation-algorithmic foundations for real-tim
 ## Research Profile
 
 - Real-time resource allocation and scheduling for edge/cloud systems
-- Approximation algorithms and combinatorial optimization for deadline-constrained systems
+- Approximation algorithms and combinatorial optimization
 - Distributed coordination for network-integrated real-time systems
-- Communication-aware scheduling and deterministic component-based design
-- Co-simulation and simulation infrastructure for cyber-physical and edge systems
+- Co-simulation for cyber-physical and edge systems
 
 See more on my [research directions](/research/).
 
