@@ -16,8 +16,6 @@ I am a Postdoctoral Researcher at Uppsala University, Sweden. I received my Ph.D
 
 My Ph.D. research established approximation-algorithmic foundations for real-time task offloading and heterogeneous resource management in mobile edge computing systems. In my postdoctoral research, I am extending this work toward **modular design for cyber-physical systems**, aiming to improve the efficiency and ensure the correctness of system composition.
 
-My research focuses on the design of reliable and modular cyber-physical systems. Reliability in such systems depends on both functional correctness and timing correctness, while also requiring robustness to faults and environmental uncertainties. Modularity is achieved by designing systems whose components can be efficiently composed, integrated, and coordinated in a reliable manner.
-
 📎 Download my [Curriculum Vitae](/papers/AcademicCV.pdf).
 
 📎 Download my [Research Statement](/papers/ResearchStatement.pdf).
