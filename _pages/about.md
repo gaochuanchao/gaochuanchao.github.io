@@ -14,7 +14,7 @@ redirect_from:
 
 I am a Postdoctoral Researcher at Uppsala University, Sweden. I received my Ph.D. from the College of Computing and Data Science at Nanyang Technological University (NTU), Singapore, under the supervision of [Prof. Arvind Easwaran](https://personal.ntu.edu.sg/arvinde/).
 
-My Ph.D. research established approximation-algorithmic foundations for real-time task offloading and heterogeneous resource management in mobile edge computing systems. In my postdoctoral research, I am extending this work toward **modular design for cyber-physical systems**, aiming to improve the efficiency and ensure the correctness of system composition.
+My Ph.D. research established approximation-algorithmic foundations for real-time task offloading and heterogeneous resource management in mobile edge computing systems. In my postdoctoral research, I am extending this work toward **modular design for cyber-physical systems**, aiming to improve the efficiency and determinism in cyber-physical system design.
 
 📎 Download my [Curriculum Vitae](/papers/AcademicCV.pdf).
 
@@ -25,7 +25,7 @@ My Ph.D. research established approximation-algorithmic foundations for real-tim
 - Real-time resource allocation and scheduling for edge/cloud systems
 - Approximation algorithms and combinatorial optimization
 - Distributed coordination for network-integrated real-time systems
-- Co-simulation for cyber-physical and edge systems
+- Simulation infrastructure for cyber-physical systems
 
 See more on my [research directions](/research/).
 

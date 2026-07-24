@@ -56,7 +56,7 @@ Current interests include:
 - coordination mechanisms for edge servers and cyber-physical components;
 - the cost of information exchange in distributed scheduling.
 
-### 3. Co-Simulation and Simulation Infrastructure
+### 3. Simulation Infrastructure
 I design and implement simulation frameworks for evaluating real-time task offloading, resource allocation, scheduling, and coordination algorithms. My goal is to connect theoretical algorithm design with realistic system-level evaluation.
 
 This direction includes simulation infrastructure for mobile edge computing and vehicular edge systems, as well as broader interests in co-simulation and parallel discrete-event simulation for distributed cyber-physical systems.
@@ -64,10 +64,10 @@ This direction includes simulation infrastructure for mobile edge computing and 
 Representative work:
 - [mecRT](https://github.com/gaochuanchao/mecRT) is an open-source simulation framework for evaluating real-time task offloading, resource allocation, and scheduling algorithms in mobile edge computing systems.
 - In [[RTCSA'25]](</papers/VecSim, a Vehicular Edge Computing Simulator for Real-Time Applications.pdf>), we proposed VecSim, a vehicular edge computing simulator for real-time applications, which is open-sourced as part of the mecRT project.
+- [CPSSim](https://github.com/gaochuanchao/CPSSim) is a portable, deterministic, event-driven C++ simulator for studying the interaction between real-time execution and cyber-physical behavior. The first validated scenario is the Bosch Physics-Driven Real-Time CPS Challenge: a distributed vehicle-control chain whose timing behavior affects physical performance and whose physical state can inform online scheduling.
 
 Current interests include:
-- simulation support for network-integrated real-time systems;
-- co-simulation of heterogeneous real-time and cyber-physical components;
+- simulation support for cyber-physical systems;
 - scalable simulation methods for edge and vehicular systems;
 - reproducible evaluation infrastructure for scheduling and resource-allocation algorithms.
 

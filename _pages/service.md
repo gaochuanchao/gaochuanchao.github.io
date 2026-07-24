@@ -15,3 +15,4 @@ author_profile: true
 ## Reviewing
 
 - **Reviewer**, IEEE Transactions on Computers, 2026.
+- **Reviewer**, Journal of Systems Architecture, 2026.
