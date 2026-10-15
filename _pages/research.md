@@ -7,7 +7,7 @@ author_profile: true
 
 # Research
 
-My research studies **coordination, resource allocation, and scheduling in distributed real-time computing systems**. I am interested in systems where computation, communication, and timing constraints interact, such as mobile edge computing, network-integrated cyber-physical systems, vehicular systems, and deterministic component-based real-time systems.
+My research studies **heterogeenrous resource optimozation**. I am interested in systems where computation, communication, and timing constraints interact, such as mobile edge computing, network-integrated cyber-physical systems, vehicular systems, and deterministic component-based real-time systems.
 
 A central goal of my work is to develop methods that are both **theoretically grounded** and **system-aware**: algorithms should provide rigorous performance guarantees, while also capturing practical constraints such as wireless dynamics, heterogeneous resources, communication delays, deadline-aware execution, and distributed decision making.
 

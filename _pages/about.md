@@ -22,10 +22,9 @@ My Ph.D. research established approximation-algorithmic foundations for real-tim
 
 ## Research Profile
 
-- Real-time resource allocation and scheduling for edge/cloud systems
-- Approximation algorithms and combinatorial optimization
-- Distributed coordination for network-integrated real-time systems
-- Simulation infrastructure for cyber-physical systems
+My Research focus on heterogeneous resource usage optimozation, mainly in real-time and embedeed systems, including
+- Given a fixed amount of resource, maximize the utility of workloads that can be served.
+- Given a fixed amount of workload, minimize the cost of resource that can feasiblely serve all workloads.
 
 See more on my [research directions](/research/).
 
